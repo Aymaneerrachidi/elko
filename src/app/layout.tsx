@@ -60,11 +60,11 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-paper text-ink">
+      <body className="min-h-full bg-paper text-ink">
         <div className="grain-overlay" aria-hidden />
         <AnnouncementBar />
         <Header />
-        <main className="flex-1 relative z-0">{children}</main>
+        <main className="pt-16 md:pt-20">{children}</main>
         <Footer />
         <CartDrawer />
         <SearchOverlay />

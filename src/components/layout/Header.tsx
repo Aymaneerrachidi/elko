@@ -60,7 +60,7 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
+      className={`fixed top-9 left-0 right-0 z-50 transition-all duration-300 ${
         transparent
           ? "bg-transparent text-paper"
           : "bg-paper/95 backdrop-blur-md text-ink shadow-[0_1px_0_0_rgba(0,0,0,0.06)]"
