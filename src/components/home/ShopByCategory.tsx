@@ -14,9 +14,9 @@ const categories: {
   { name: "Briefs", image: categoryImages["Briefs"] },
   { name: "Trunks", image: categoryImages["Trunks"], video: "/videos/trunks.mp4" },
   { name: "Boxers", image: categoryImages["Boxers"] },
-  { name: "Undershirts", image: categoryImages["Undershirts"], video: "/videos/crew%20neck.mp4" },
+  { name: "Undershirts", image: categoryImages["Undershirts"], video: "/videos/crew-neck.mp4" },
   { name: "Multipacks", image: categoryImages["Multipacks"] },
-  { name: "Performance", image: categoryImages["Performance"], video: "/videos/performance%20short.mp4" },
+  { name: "Performance", image: categoryImages["Performance"], video: "/videos/performance-short.mp4" },
   { name: "Tank Tops", image: categoryImages["Tank Tops"] },
 ];
 
