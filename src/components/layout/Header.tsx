@@ -42,7 +42,7 @@ export default function Header() {
 
   useEffect(() => {
     setMounted(true);
-    const onScroll = () => setScrolled(window.scrollY > 24);
+    const onScroll = () => setScrolled(window.scrollY > 10);
     onScroll();
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
@@ -61,7 +61,9 @@ export default function Header() {
   return (
     <div className="contents">
     <header
-      className={`fixed top-9 left-0 right-0 z-50 transition-all duration-300 bg-paper/95 backdrop-blur-md text-ink shadow-[0_1px_0_0_rgba(0,0,0,0.06)] ${
+      className={`fixed left-0 right-0 z-50 transition-all duration-300 bg-paper/95 backdrop-blur-md text-ink shadow-[0_1px_0_0_rgba(0,0,0,0.06)] ${
+        scrolled ? "top-0" : "top-9"
+      } ${
         transparent
           ? "md:bg-transparent md:text-paper md:shadow-none"
           : ""
