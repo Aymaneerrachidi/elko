@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { Search, Heart, User, ShoppingBag, Menu, X, ChevronDown } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import { useCartStore, useWishlistStore, useSearchStore } from "@/lib/store";
+import { useCartStore, useWishlistStore, useSearchStore, useAuthStore } from "@/lib/store";
 import { collections, products } from "@/lib/products";
 
 const categories = [
@@ -30,6 +30,7 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
   const prevPath = useRef(pathname);
@@ -39,6 +40,7 @@ export default function Header() {
   const cartOpen = useCartStore((s) => s.open);
   const wishlistCount = useWishlistStore((s) => s.ids.length);
   const openSearch = useSearchStore((s) => s.open);
+  const { user, signOut } = useAuthStore();
 
   useEffect(() => {
     setMounted(true);
@@ -53,6 +55,7 @@ export default function Header() {
       prevPath.current = pathname;
       setMobileOpen(false);
       setMegaOpen(false);
+      setUserMenuOpen(false);
     }
   }, [pathname]);
 
@@ -74,7 +77,7 @@ export default function Header() {
           <button
             aria-label="Open menu"
             className="lg:hidden cursor-pointer p-2 -ml-2"
-            onClick={() => setMobileOpen(true)}
+            onClick={() => { setMobileOpen(true); setUserMenuOpen(false); }}
           >
             <Menu size={22} />
           </button>
@@ -184,13 +187,39 @@ export default function Header() {
                 </span>
               )}
             </Link>
-            <Link
-              href="/account"
-              aria-label="Account"
-              className="p-2 md:p-2.5 hidden sm:inline-flex cursor-pointer hover:opacity-70 transition-opacity"
-            >
-              <User size={20} />
-            </Link>
+            <div className="relative hidden sm:block">
+              {user ? (
+                <>
+                  <button
+                    onClick={() => setUserMenuOpen((v) => !v)}
+                    aria-label="Account"
+                    className="p-2 md:p-2.5 cursor-pointer hover:opacity-70 transition-opacity"
+                  >
+                    <User size={20} />
+                  </button>
+                  {userMenuOpen && (
+                    <>
+                      <div className="fixed inset-0 z-40" onClick={() => setUserMenuOpen(false)} />
+                      <div className="absolute right-0 top-full pt-2 z-50">
+                        <div className="bg-paper text-ink rounded-xl shadow-xl border border-line p-3 min-w-[180px]">
+                          <p className="text-xs text-charcoal/60 truncate mb-2">{user.email}</p>
+                          <Link href="/account" onClick={() => setUserMenuOpen(false)} className="block text-sm font-medium py-1.5 hover:text-gold transition-colors">My Account</Link>
+                          <button onClick={() => { signOut(); setUserMenuOpen(false); }} className="cursor-pointer w-full text-left text-sm font-medium py-1.5 hover:text-gold transition-colors flex items-center gap-2">Sign Out</button>
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </>
+              ) : (
+                <Link
+                  href="/account"
+                  aria-label="Account"
+                  className="p-2 md:p-2.5 cursor-pointer hover:opacity-70 transition-opacity"
+                >
+                  <User size={20} />
+                </Link>
+              )}
+            </div>
             <button
               aria-label={mounted ? `Shopping bag, ${cartCount} items` : "Shopping bag"}
               className="p-2 md:p-2.5 relative cursor-pointer hover:opacity-70 transition-opacity"
@@ -249,9 +278,14 @@ export default function Header() {
               <Link href="/account" className="py-3.5 text-base border-b border-line cursor-pointer">
                 Account
               </Link>
-              <Link href="/wishlist" className="py-3.5 text-base cursor-pointer">
+              <Link href="/wishlist" className="py-3.5 text-base border-b border-line cursor-pointer">
                 Wishlist
               </Link>
+              {user && (
+                <button onClick={() => { signOut(); setMobileOpen(false); }} className="text-left py-3.5 text-base cursor-pointer">
+                  Sign Out
+                </button>
+              )}
             </nav>
             <div className="p-5">
               <p className="text-[11px] tracking-widest text-charcoal/60 mb-3">SHOP BY CATEGORY</p>
