@@ -60,14 +60,14 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-40 transition-all duration-300 ${
+      className={`sticky top-0 z-50 transition-all duration-300 ${
         transparent
           ? "bg-transparent text-paper"
           : "bg-paper/95 backdrop-blur-md text-ink shadow-[0_1px_0_0_rgba(0,0,0,0.06)]"
       }`}
     >
       <div className="max-w-[1600px] mx-auto px-5 md:px-8">
-        <div className="flex items-center justify-between h-18 md:h-20">
+        <div className="flex items-center justify-between h-16 md:h-20">
           <button
             aria-label="Open menu"
             className="lg:hidden cursor-pointer p-2 -ml-2"

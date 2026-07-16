@@ -64,7 +64,7 @@ export default function RootLayout({
         <div className="grain-overlay" aria-hidden />
         <AnnouncementBar />
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 relative z-0">{children}</main>
         <Footer />
         <CartDrawer />
         <SearchOverlay />
