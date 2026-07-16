@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { Search, Heart, User, ShoppingBag, Menu, X, ChevronDown } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -31,8 +31,8 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
-  const [lastPathname, setLastPathname] = useState<string | null>(null);
   const pathname = usePathname();
+  const prevPath = useRef(pathname);
   const isHome = pathname === "/";
 
   const cartCount = useCartStore((s) => s.itemCount());
@@ -48,11 +48,13 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  if (pathname !== lastPathname) {
-    setLastPathname(pathname);
-    setMobileOpen(false);
-    setMegaOpen(false);
-  }
+  useEffect(() => {
+    if (pathname !== prevPath.current) {
+      prevPath.current = pathname;
+      setMobileOpen(false);
+      setMegaOpen(false);
+    }
+  }, [pathname]);
 
   const transparent = isHome && !scrolled && !mobileOpen;
 

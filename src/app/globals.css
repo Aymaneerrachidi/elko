@@ -98,7 +98,7 @@ body {
 .grain-overlay {
   position: fixed;
   inset: 0;
-  z-index: 40;
+  z-index: 30;
   pointer-events: none;
   opacity: 0.035;
   mix-blend-mode: overlay;

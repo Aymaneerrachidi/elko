@@ -21,7 +21,7 @@ export default function Hero() {
   const handleVideoLoad = useCallback(() => setVideoLoaded(true), []);
 
   return (
-    <section className="relative h-[92vh] min-h-[640px] w-full overflow-hidden">
+    <section className="relative h-[92dvh] min-h-[640px] w-full overflow-hidden">
       <motion.div
         initial={{ scale: 1.08 }}
         animate={{ scale: 1 }}
