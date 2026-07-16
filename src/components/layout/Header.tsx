@@ -59,6 +59,7 @@ export default function Header() {
   const transparent = isHome && !scrolled && !mobileOpen;
 
   return (
+    <div className="contents">
     <header
       className={`fixed top-9 left-0 right-0 z-50 transition-all duration-300 bg-paper/95 backdrop-blur-md text-ink shadow-[0_1px_0_0_rgba(0,0,0,0.06)] ${
         transparent
@@ -203,70 +204,71 @@ export default function Header() {
           </div>
         </div>
       </div>
+    </header>
 
-      {/* Mobile drawer */}
-      <AnimatePresence>
-        {mobileOpen && (
-          <>
-            <motion.div
-              className="fixed inset-0 bg-black/50 z-50 lg:hidden"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              onClick={() => setMobileOpen(false)}
-            />
-            <motion.div
-              className="fixed top-0 left-0 bottom-0 w-[85%] max-w-sm bg-paper text-ink z-50 lg:hidden overflow-y-auto"
-              initial={{ x: "-100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "-100%" }}
-              transition={{ type: "tween", duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            >
-              <div className="flex items-center justify-between p-5 border-b border-line">
-                <span className="font-display text-xl tracking-[0.18em] font-semibold">ELKO</span>
-                <button
-                  aria-label="Close menu"
-                  className="p-2 cursor-pointer"
-                  onClick={() => setMobileOpen(false)}
+    {/* Mobile drawer — outside header so z-index works at root level */}
+    <AnimatePresence>
+      {mobileOpen && (
+        <>
+          <motion.div
+            className="fixed inset-0 bg-black/50 z-50 lg:hidden"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setMobileOpen(false)}
+          />
+          <motion.div
+            className="fixed top-0 left-0 bottom-0 w-[85%] max-w-sm bg-paper text-ink z-50 lg:hidden overflow-y-auto"
+            initial={{ x: "-100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "-100%" }}
+            transition={{ type: "tween", duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <div className="flex items-center justify-between p-5 border-b border-line">
+              <span className="font-display text-xl tracking-[0.18em] font-semibold">ELKO</span>
+              <button
+                aria-label="Close menu"
+                className="p-2 cursor-pointer"
+                onClick={() => setMobileOpen(false)}
+              >
+                <X size={22} />
+              </button>
+            </div>
+            <nav className="p-5 flex flex-col gap-1">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="py-3.5 text-base border-b border-line cursor-pointer"
                 >
-                  <X size={22} />
-                </button>
-              </div>
-              <nav className="p-5 flex flex-col gap-1">
-                {navLinks.map((link) => (
+                  {link.name}
+                </Link>
+              ))}
+              <Link href="/account" className="py-3.5 text-base border-b border-line cursor-pointer">
+                Account
+              </Link>
+              <Link href="/wishlist" className="py-3.5 text-base cursor-pointer">
+                Wishlist
+              </Link>
+            </nav>
+            <div className="p-5">
+              <p className="text-[11px] tracking-widest text-charcoal/60 mb-3">SHOP BY CATEGORY</p>
+              <div className="grid grid-cols-2 gap-2">
+                {categories.map((c) => (
                   <Link
-                    key={link.href}
-                    href={link.href}
-                    className="py-3.5 text-base border-b border-line cursor-pointer"
+                    key={c.slug}
+                    href={`/shop?category=${encodeURIComponent(c.name)}`}
+                    className="text-sm py-2 px-3 rounded-lg bg-cream cursor-pointer"
                   >
-                    {link.name}
+                    {c.name}
                   </Link>
                 ))}
-                <Link href="/account" className="py-3.5 text-base border-b border-line cursor-pointer">
-                  Account
-                </Link>
-                <Link href="/wishlist" className="py-3.5 text-base cursor-pointer">
-                  Wishlist
-                </Link>
-              </nav>
-              <div className="p-5">
-                <p className="text-[11px] tracking-widest text-charcoal/60 mb-3">SHOP BY CATEGORY</p>
-                <div className="grid grid-cols-2 gap-2">
-                  {categories.map((c) => (
-                    <Link
-                      key={c.slug}
-                      href={`/shop?category=${encodeURIComponent(c.name)}`}
-                      className="text-sm py-2 px-3 rounded-lg bg-cream cursor-pointer"
-                    >
-                      {c.name}
-                    </Link>
-                  ))}
-                </div>
               </div>
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence>
-    </header>
+            </div>
+          </motion.div>
+        </>
+      )}
+    </AnimatePresence>
+    </div>
   );
 }
