@@ -73,7 +73,7 @@ export default function FeaturedCollection() {
                   <div className="relative h-full flex flex-col justify-end p-6 md:p-8">
                     <p className="text-white font-display text-2xl md:text-3xl mb-2">{col.name}</p>
                     <p className="text-white/75 text-sm max-w-xs mb-3">{col.description}</p>
-                    <span className="group/cta inline-flex items-center gap-2 text-gold text-xs tracking-widest font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span className="group/cta inline-flex items-center gap-2 text-gold text-xs tracking-widest font-semibold md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
                       DISCOVER
                       <span className="w-5 h-5 rounded-full bg-gold/15 flex items-center justify-center transition-transform duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:translate-x-0.5">
                         →

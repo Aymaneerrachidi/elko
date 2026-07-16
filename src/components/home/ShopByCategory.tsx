@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef, useCallback, useEffect } from "react";
 import { motion } from "framer-motion";
 import { categoryImages } from "@/lib/images";
 
@@ -22,30 +22,60 @@ const categories: {
 
 export default function ShopByCategory() {
   const [hovered, setHovered] = useState<string | null>(null);
+  // Touch devices can't hover, so the preview video + caption must be on by
+  // default there instead of waiting for a mouseenter that will never fire.
+  const [canHover, setCanHover] = useState(true);
   const videoRefs = useRef<Map<string, HTMLVideoElement>>(new Map());
 
-  const setVideoRef = useCallback((name: string) => (el: HTMLVideoElement | null) => {
-    if (el) {
-      videoRefs.current.set(name, el);
-    } else {
-      videoRefs.current.delete(name);
-    }
+  useEffect(() => {
+    const mq = window.matchMedia("(hover: hover) and (pointer: fine)");
+    setCanHover(mq.matches);
+    const onChange = () => setCanHover(mq.matches);
+    mq.addEventListener("change", onChange);
+    return () => mq.removeEventListener("change", onChange);
   }, []);
 
-  const handleMouseEnter = useCallback((name: string) => {
-    setHovered(name);
-    const video = videoRefs.current.get(name);
-    if (video) {
-      video.currentTime = 0;
+  useEffect(() => {
+    if (canHover) return;
+    videoRefs.current.forEach((video) => {
       video.play().catch(() => {});
-    }
-  }, []);
+    });
+  }, [canHover]);
 
-  const handleMouseLeave = useCallback((name: string) => {
-    setHovered(null);
-    const video = videoRefs.current.get(name);
-    if (video) video.pause();
-  }, []);
+  const setVideoRef = useCallback(
+    (name: string) => (el: HTMLVideoElement | null) => {
+      if (el) {
+        videoRefs.current.set(name, el);
+        if (!canHover) el.play().catch(() => {});
+      } else {
+        videoRefs.current.delete(name);
+      }
+    },
+    [canHover]
+  );
+
+  const handleMouseEnter = useCallback(
+    (name: string) => {
+      if (!canHover) return;
+      setHovered(name);
+      const video = videoRefs.current.get(name);
+      if (video) {
+        video.currentTime = 0;
+        video.play().catch(() => {});
+      }
+    },
+    [canHover]
+  );
+
+  const handleMouseLeave = useCallback(
+    (name: string) => {
+      if (!canHover) return;
+      setHovered(null);
+      const video = videoRefs.current.get(name);
+      if (video) video.pause();
+    },
+    [canHover]
+  );
 
   return (
     <section className="max-w-[1600px] mx-auto px-5 md:px-8 py-20 md:py-28">
@@ -57,7 +87,9 @@ export default function ShopByCategory() {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5">
         {categories.map((cat, i) => {
-          const isHovered = hovered === cat.name;
+          // On touch devices there's no hover state at all, so the "active" preview
+          // treatment (video playing, caption visible) is simply always on.
+          const active = canHover ? hovered === cat.name : true;
           return (
             <motion.div
               key={cat.name}
@@ -78,8 +110,8 @@ export default function ShopByCategory() {
                     alt={cat.name}
                     className="w-full h-full object-cover transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                     style={{
-                      transform: isHovered ? "scale(1.1)" : "scale(1)",
-                      opacity: cat.video && isHovered ? 0 : 1,
+                      transform: active ? "scale(1.1)" : "scale(1)",
+                      opacity: cat.video && active ? 0 : 1,
                     }}
                     loading="lazy"
                   />
@@ -93,8 +125,8 @@ export default function ShopByCategory() {
                       preload="auto"
                       className="absolute inset-0 w-full h-full object-cover transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
                       style={{
-                        transform: isHovered ? "scale(1.1)" : "scale(1)",
-                        opacity: isHovered ? 1 : 0,
+                        transform: active ? "scale(1.1)" : "scale(1)",
+                        opacity: active ? 1 : 0,
                       }}
                     />
                   )}
@@ -102,7 +134,7 @@ export default function ShopByCategory() {
                 <div
                   className="absolute inset-0 transition-opacity duration-700"
                   style={{
-                    background: isHovered
+                    background: active
                       ? "linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.15) 40%, transparent 100%)"
                       : "linear-gradient(to top, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.05) 40%, transparent 100%)",
                   }}
@@ -112,8 +144,8 @@ export default function ShopByCategory() {
                   <span
                     className="text-white/70 text-xs mt-1 transition-all duration-300"
                     style={{
-                      opacity: isHovered ? 1 : 0,
-                      transform: isHovered ? "translateX(4px)" : "translateX(0)",
+                      opacity: active ? 1 : 0,
+                      transform: active ? "translateX(4px)" : "translateX(0)",
                     }}
                   >
                     Shop Now →

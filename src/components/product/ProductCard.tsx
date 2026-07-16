@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { Heart, Eye } from "lucide-react";
 import { AnimatePresence } from "framer-motion";
@@ -14,10 +14,29 @@ export default function ProductCard({ product, videoSrc }: { product: Product; v
   const [showSizes, setShowSizes] = useState(false);
   const [quickViewOpen, setQuickViewOpen] = useState(false);
   const [videoHover, setVideoHover] = useState(false);
+  const [canHover, setCanHover] = useState(true);
   const videoRef = useRef<HTMLVideoElement>(null);
   const addItem = useCartStore((s) => s.addItem);
   const toggleWishlist = useWishlistStore((s) => s.toggle);
   const isWishlisted = useWishlistStore((s) => s.has(product.id));
+
+  useEffect(() => {
+    const mq = window.matchMedia("(hover: hover) and (pointer: fine)");
+    setCanHover(mq.matches);
+    const onChange = () => setCanHover(mq.matches);
+    mq.addEventListener("change", onChange);
+    return () => mq.removeEventListener("change", onChange);
+  }, []);
+
+  useEffect(() => {
+    if (canHover || !videoSrc) return;
+    setVideoHover(true);
+    videoRef.current?.play().catch(() => {});
+  }, [canHover, videoSrc]);
+
+  // Touch devices can't hover, so a product with a preview video should just
+  // show it playing by default instead of waiting for a mouseenter that never fires.
+  const videoActive = canHover ? videoHover : Boolean(videoSrc);
 
   const discount = product.compareAtPrice
     ? Math.round(100 - (product.price / product.compareAtPrice) * 100)
@@ -31,8 +50,8 @@ export default function ProductCard({ product, videoSrc }: { product: Product; v
   return (
     <div
       className="group relative"
-      onMouseEnter={() => { if (videoSrc) { setVideoHover(true); videoRef.current?.play().catch(() => {}); } }}
-      onMouseLeave={() => { if (videoSrc) { setVideoHover(false); videoRef.current?.pause(); } }}
+      onMouseEnter={() => { if (videoSrc && canHover) { setVideoHover(true); videoRef.current?.play().catch(() => {}); } }}
+      onMouseLeave={() => { if (videoSrc && canHover) { setVideoHover(false); videoRef.current?.pause(); } }}
     >
       <div className="bezel-outer transition-shadow duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:shadow-[0_24px_48px_-16px_rgba(17,17,16,0.18)]">
       <div className="bezel-inner relative aspect-[3/4] overflow-hidden bg-cream">
@@ -43,7 +62,7 @@ export default function ProductCard({ product, videoSrc }: { product: Product; v
                 src={product.images[0]}
                 alt={product.name}
                 className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
-                style={{ opacity: videoHover ? 0 : 1 }}
+                style={{ opacity: videoActive ? 0 : 1 }}
                 loading="lazy"
               />
               <video
@@ -54,7 +73,7 @@ export default function ProductCard({ product, videoSrc }: { product: Product; v
                 playsInline
                 preload="auto"
                 className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]"
-                style={{ opacity: videoHover ? 1 : 0 }}
+                style={{ opacity: videoActive ? 1 : 0 }}
               />
             </>
           ) : (

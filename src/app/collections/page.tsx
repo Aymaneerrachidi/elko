@@ -31,7 +31,7 @@ export default function CollectionsPage() {
             <div className="relative h-full flex flex-col justify-end p-7">
               <p className="text-white font-display text-2xl md:text-3xl mb-2">{col.name}</p>
               <p className="text-white/75 text-sm max-w-sm mb-3">{col.description}</p>
-              <span className="text-gold text-xs tracking-widest font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
+              <span className="text-gold text-xs tracking-widest font-semibold md:opacity-0 md:group-hover:opacity-100 transition-opacity">
                 DISCOVER →
               </span>
             </div>
