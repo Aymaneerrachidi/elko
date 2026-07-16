@@ -1,0 +1,38 @@
+- generic [ref=f18e4]:
+  - navigation [ref=f18e5]:
+    - generic [ref=f18e6]:
+      - generic [ref=f18e7]:
+        - link "Accueil Unsplash" [ref=f18e8] [cursor=pointer]:
+          - /url: /fr
+          - img "Accueil Unsplash" [ref=f18e9]
+        - link "Photos" [ref=f18e11] [cursor=pointer]:
+          - /url: /fr
+        - link "Illustrations" [ref=f18e14] [cursor=pointer]:
+          - /url: /fr/illustrations
+      - generic [ref=f18e17]:
+        - button "Explorer" [ref=f18e18] [cursor=pointer]
+        - button "Collections" [ref=f18e21] [cursor=pointer]
+        - button "Historique de téléchargement" [ref=f18e24] [cursor=pointer]
+      - button "Favoris" [ref=f18e28] [cursor=pointer]
+    - generic [ref=f18e31]:
+      - link "Connexion / S’inscrire" [ref=f18e32] [cursor=pointer]:
+        - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture
+      - button "Langue" [ref=f18e35] [cursor=pointer]
+      - button "Menu" [ref=f18e38] [cursor=pointer]
+  - generic [ref=f18e41]:
+    - navigation [ref=f18e43]:
+      - search "Rechercher des visuels sur tout le site" [ref=f18e45]:
+        - button "Rechercher sur Unsplash" [ref=f18e46] [cursor=pointer]
+        - combobox [ref=f18e49]:
+          - searchbox "Rechercher sur Unsplash" [ref=f18e50]: folded cotton fabric texture
+          - listbox
+        - button "Effacer" [ref=f18e51] [cursor=pointer]
+        - button "Recherche de visuels" [ref=f18e56] [cursor=pointer]
+      - generic [ref=f18e59]:
+        - link "Abonnez-vous à Unsplash+" [ref=f18e60] [cursor=pointer]:
+          - /url: /fr/plus
+        - link "Se connecter" [ref=f18e61] [cursor=pointer]:
+          - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture
+      - button "Soumettre une image" [ref=f18e63] [cursor=pointer]
+    - generic:
+      - region "Notifications"

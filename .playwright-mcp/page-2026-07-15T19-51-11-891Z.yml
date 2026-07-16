@@ -1,0 +1,248 @@
+- generic [ref=f4e4]:
+  - navigation [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - generic [ref=f4e7]:
+        - link "Accueil Unsplash" [ref=f4e8] [cursor=pointer]:
+          - /url: /fr
+          - img "Accueil Unsplash" [ref=f4e9]
+        - link "Photos" [ref=f4e11] [cursor=pointer]:
+          - /url: /fr
+        - link "Illustrations" [ref=f4e14] [cursor=pointer]:
+          - /url: /fr/illustrations
+      - generic [ref=f4e17]:
+        - button "Explorer" [ref=f4e18] [cursor=pointer]
+        - button "Collections" [ref=f4e21] [cursor=pointer]
+        - button "Historique de téléchargement" [ref=f4e24] [cursor=pointer]
+      - button "Favoris" [ref=f4e28] [cursor=pointer]
+    - generic [ref=f4e31]:
+      - link "Connexion / S’inscrire" [ref=f4e32] [cursor=pointer]:
+        - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial
+      - button "Langue" [ref=f4e35] [cursor=pointer]
+      - button "Menu" [ref=f4e38] [cursor=pointer]
+  - generic [ref=f4e41]:
+    - generic [ref=f4e42]:
+      - navigation [ref=f4e43]:
+        - search "Rechercher des visuels sur tout le site" [ref=f4e45]:
+          - button "Rechercher sur Unsplash" [ref=f4e46] [cursor=pointer]
+          - combobox [ref=f4e49]:
+            - searchbox "Rechercher sur Unsplash" [ref=f4e50]: man underwear editorial
+            - listbox
+          - button "Effacer" [ref=f4e51] [cursor=pointer]
+          - button "Recherche de visuels" [ref=f4e56] [cursor=pointer]
+        - generic [ref=f4e59]:
+          - link "Abonnez-vous à Unsplash+" [ref=f4e60] [cursor=pointer]:
+            - /url: /fr/plus
+          - link "Se connecter" [ref=f4e61] [cursor=pointer]:
+            - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial
+        - button "Soumettre une image" [ref=f4e63] [cursor=pointer]
+      - generic [ref=f4e64]:
+        - generic [ref=f4e70]:
+          - list [ref=f4e71]:
+            - listitem [ref=f4e72]:
+              - link "Photos 3,4 k":
+                - /url: /fr/s/photos/man-underwear-editorial
+                - text: Photos
+                - generic: 3,4 k
+            - listitem [ref=f4e73]:
+              - link "Illustrations 4" [ref=f4e74] [cursor=pointer]:
+                - /url: /fr/s/illustrations/man-underwear-editorial
+                - text: Illustrations
+                - generic [ref=f4e77]: "4"
+            - listitem [ref=f4e78]:
+              - button "Plus" [ref=f4e79] [cursor=pointer]
+          - generic [ref=f4e82]:
+            - button "Licence" [ref=f4e83] [cursor=pointer]
+            - button "Orientation" [ref=f4e89] [cursor=pointer]
+            - button "Classer par Pertinence" [ref=f4e95] [cursor=pointer]
+        - generic [ref=f4e101]:
+          - heading "Man underwear editorial" [level=1] [ref=f4e103]
+          - generic [ref=f4e105]:
+            - button "faire défiler la liste vers la droite" [ref=f4e107] [cursor=pointer]
+            - generic [ref=f4e111]:
+              - link "Positivité corporelle" [ref=f4e113] [cursor=pointer]:
+                - /url: /fr/s/photos/positivit%C3%A9-corporelle
+              - link "torse" [ref=f4e115] [cursor=pointer]:
+                - /url: /fr/s/photos/torse
+              - link "torse nu" [ref=f4e117] [cursor=pointer]:
+                - /url: /fr/s/photos/torse-nu
+              - link "sous-vêtement" [ref=f4e119] [cursor=pointer]:
+                - /url: /fr/s/photos/sous--v%C3%AAtement
+              - link "corps humain" [ref=f4e121] [cursor=pointer]:
+                - /url: /fr/s/photos/corps-humain
+              - link "affection" [ref=f4e123] [cursor=pointer]:
+                - /url: /fr/s/photos/affection
+              - link "corp" [ref=f4e125] [cursor=pointer]:
+                - /url: /fr/s/photos/corp
+              - link "intimité" [ref=f4e127] [cursor=pointer]:
+                - /url: /fr/s/photos/intimit%C3%A9
+              - link "Expression artistique" [ref=f4e129] [cursor=pointer]:
+                - /url: /fr/s/photos/expression-artistique
+              - link "bien-être" [ref=f4e131] [cursor=pointer]:
+                - /url: /fr/s/photos/bien--%C3%AAtre
+              - link "Vacance" [ref=f4e133] [cursor=pointer]:
+                - /url: /fr/s/photos/vacance
+              - link "Connexion humaine" [ref=f4e135] [cursor=pointer]:
+                - /url: /fr/s/photos/connexion-humaine
+        - generic [ref=f4e137]:
+          - generic [ref=f4e141]:
+            - generic [ref=f4e142]:
+              - figure [ref=f4e143]:
+                - generic [ref=f4e145]:
+                  - link [ref=f4e146]:
+                    - /url: /fr/photos/pleine-longueur-dun-beau-jeune-homme-africain-regardant-ailleurs-tout-en-marchant-dans-la-chambre-a-coucher-a-la-maison--e3bocc0fxU
+                    - img "Pleine longueur d’un beau jeune homme africain regardant ailleurs tout en marchant dans la chambre à coucher à la maison" [ref=f4e147]
+                  - link [ref=f4e148] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fpleine-longueur-dun-beau-jeune-homme-africain-regardant-ailleurs-tout-en-marchant-dans-la-chambre-a-coucher-a-la-maison--e3bocc0fxU
+              - generic [ref=f4e151]:
+                - heading "Images sponsorisées" [level=4] [ref=f4e152]:
+                  - link [ref=f4e154] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3Af5064ace-9ef3-4e46-8e8f-4791897bf825&phrase=man+underwear+editorial&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                - generic [ref=f4e157]:
+                  - link [ref=f4e158] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/row-of-men-wearing-swimming-trunks-gm56516114-28611506?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3Acb433acf-cb15-41bf-9a20-62017a97ef9d
+                    - img "Rangée d'hommes en slip de bain" [ref=f4e159]
+                  - link [ref=f4e160] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/a-young-man-with-long-hair-and-a-strong-body-standing-on-the-shore-by-the-lake-and-gm1289200694-384946520?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3A3c1054ff-be26-4f84-b512-e2f8b7bfbbc2
+                    - img "Un jeune homme aux cheveux longs et au corps fort, debout sur le rivage au bord du lac et profitant d’une journée d’hiver ensoleillée - Un homme se prépare à entrer dans l’eau glacée" [ref=f4e161]
+                  - link [ref=f4e162] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/modern-male-sitting-on-home-sofa-in-unbuttoned-shirt-and-casual-jeans-gm1319283907-406193367?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3A2fb810df-b1be-4e03-ad6b-2a60758c5cc1
+                    - img "Mâle moderne se reposant sur le sofa à la maison dans la chemise déboutonnée et le jean occasionnel" [ref=f4e163]
+                  - link [ref=f4e164] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/male-skin-care-routine-gm1618299349-531476679?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3A06cc99f3-4cc7-4219-80d9-06b14e7f64e7
+                    - img "Routine de soins de la peau masculine" [ref=f4e165]
+                - link "Économisez 20 % avec le code UNSPLASH20" [ref=f4e166] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3Af5064ace-9ef3-4e46-8e8f-4791897bf825&phrase=man+underwear+editorial&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=f4e167]:
+                - generic [ref=f4e169]:
+                  - link [ref=f4e170]:
+                    - /url: /fr/photos/un-homme-avec-ses-mains-sur-sa-poitrine-Bk8wMyeG6AY
+                    - img "un homme avec ses mains sur sa poitrine" [ref=f4e171]
+                  - link [ref=f4e172] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fun-homme-avec-ses-mains-sur-sa-poitrine-Bk8wMyeG6AY
+              - figure [ref=f4e175]:
+                - link [ref=f4e178]:
+                  - /url: /fr/photos/un-homme-assis-par-terre-les-jambes-croisees-Mj1ZwuSM4Dk
+                  - img "un homme assis par terre, les jambes croisées" [ref=f4e179]
+              - figure [ref=f4e180]:
+                - link [ref=f4e183]:
+                  - /url: /fr/photos/une-personne-en-short-et-barbe-sPznAn7HJNc
+                  - img "une personne en short et barbe" [ref=f4e184]
+              - figure [ref=f4e185]:
+                - link [ref=f4e188]:
+                  - /url: /fr/photos/un-homme-et-une-femme-allonges-o8nhwwttIpg
+                  - img "un homme et une femme allongés" [ref=f4e189]
+              - figure [ref=f4e190]:
+                - generic [ref=f4e192]:
+                  - link [ref=f4e193]:
+                    - /url: /fr/photos/une-femme-en-bas-de-bikini-et-culotte-qy0n2EQpk3M
+                    - img "une femme en bas de bikini et culotte" [ref=f4e194]
+                  - link [ref=f4e195] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fune-femme-en-bas-de-bikini-et-culotte-qy0n2EQpk3M
+              - figure [ref=f4e198]:
+                - link [ref=f4e201]:
+                  - /url: /fr/photos/femme-en-cardigan-vert-debout-pres-du-champ-dherbe-verte-pendant-la-journee-F37r1M5IpXQ
+                  - img "femme en cardigan vert debout près du champ d’herbe verte pendant la journée" [ref=f4e202]
+            - generic [ref=f4e203]:
+              - figure [ref=f4e204]:
+                - link [ref=f4e207]:
+                  - /url: /fr/photos/un-homme-torse-nu-allonge-dans-son-lit-a-cote-dun-livre-m-mFQMxrcw0
+                  - img "Un homme torse nu allongé dans son lit à côté d’un livre" [ref=f4e208]
+              - figure [ref=f4e209]:
+                - link [ref=f4e212]:
+                  - /url: /fr/photos/jeune-homme-en-t-shirt-blanc-et-jean-pose-0q5aFph7azU
+                  - img "Jeune homme en t-shirt blanc et jean pose." [ref=f4e213]
+              - figure [ref=f4e214]:
+                - link [ref=f4e217]:
+                  - /url: /fr/photos/un-homme-avec-un-tatouage-sur-le-bras-portant-un-slip-i1Cd9T6woIw
+                  - img "Un homme avec un tatouage sur le bras portant un slip" [ref=f4e218]
+              - figure [ref=f4e219]:
+                - generic [ref=f4e221]:
+                  - link [ref=f4e222]:
+                    - /url: /fr/photos/un-homme-age-avec-une-serviette-autour-du-cou-CLMW9bZju2s
+                    - img "un homme âgé avec une serviette autour du cou" [ref=f4e223]
+                  - link [ref=f4e224] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fun-homme-age-avec-une-serviette-autour-du-cou-CLMW9bZju2s
+              - figure [ref=f4e227]:
+                - link [ref=f4e230]:
+                  - /url: /fr/photos/un-homme-assis-sur-un-tabouret-posant-pour-une-photo-wr2pxs3Sss0
+                  - img "un homme assis sur un tabouret posant pour une photo" [ref=f4e231]
+              - figure [ref=f4e232]:
+                - link [ref=f4e235]:
+                  - /url: /fr/photos/un-homme-torse-nu-en-sous-vetements-blancs-vole-dans-les-airs-NbMjCpknpZI
+                  - img "Un homme torse nu en sous-vêtements blancs vole dans les airs" [ref=f4e236]
+              - figure [ref=f4e237]:
+                - link [ref=f4e240]:
+                  - /url: /fr/photos/homme-en-combinaison-rose-et-lunettes-de-soleil-futuristes--wBR61FOKgU
+                  - img "Homme en combinaison rose et lunettes de soleil futuristes" [ref=f4e241]
+            - generic [ref=f4e242]:
+              - link "On-brand and on budget images for your next campaign Learn More" [ref=f4e245] [cursor=pointer]:
+                - /url: https://e-10457.adzerk.net/r?e=eyJ2IjoiMS4xNCIsImF2Ijo4MjM1NTIsImF0Ijo1LCJidCI6MCwiY20iOjk0ODU5NTcsImNoIjo0NTE2MywiY2siOnt9LCJjciI6MzY0NTc4NzUxLCJkaSI6IjFmZWFlZGQ5ZGIwODQ0Y2NhNzRmOWFhNjQwOWI0YWRjIiwiZGoiOjAsImlpIjoiYjM3YjZhOThhYzQyNGZjMGE4YjMzM2Y0Zjg0MjcyNzgiLCJkbSI6MywiZmMiOjUzOTcxNjg1MywiZmwiOjU1ODQ4Njg0LCJpcCI6IjQxLjI0OC4xNjIuMjMiLCJudyI6MTA0NTcsInBjIjowLCJvcCI6MCwibXAiOjAsImVjIjowLCJnbSI6MCwiZXAiOm51bGwsInByIjoyMDgyODMsInJ0IjoxLCJycyI6NTAwLCJzYSI6Ijk2Iiwic2IiOiJpLTAyODBkOGY3NjRiZjdkMTY0Iiwic3AiOjI5NjAzMTYsInN0IjoxMTIxOTU0LCJ1ayI6ImFkMzJiODQxLWY4ZGYtNDk5Ny1hNjFmLWUzZThiZTA4NjQ2NSIsInpuIjoyNDEzNDgsInptIjpbMjQxMzQ4XSwidHMiOjE3ODQxNDUwNzA3ODIsInBuIjoic2VhcmNoLWluLWZlZWQiLCJnciI6dHJ1ZSwiZ2MiOnRydWUsImdDIjp0cnVlLCJncyI6Im5vbmUiLCJ0eiI6IkFtZXJpY2EvTmV3X1lvcmsiLCJ1ciI6Imh0dHBzOi8vdW5zcGxhc2guY29tL3N0dWRpbyJ9&s=5QhebJHVrXc4Jmt7Yf9Yr9ZGT9o
+                - contentinfo [ref=f4e249]:
+                  - generic [ref=f4e250]: On-brand and on budget images for your next campaign
+                  - generic [ref=f4e257]: Learn More
+              - figure [ref=f4e258]:
+                - link [ref=f4e261]:
+                  - /url: /fr/photos/deux-hommes-en-sous-vetements-posent-pour-une-photo-NG8i2o3W194
+                  - img "Deux hommes en sous-vêtements posent pour une photo." [ref=f4e262]
+              - figure [ref=f4e263]:
+                - link [ref=f4e266]:
+                  - /url: /fr/photos/un-homme-assis-sur-le-sol-les-jambes-croisees-0MIhUlM6jBQ
+                  - img "un homme assis sur le sol, les jambes croisées" [ref=f4e267]
+              - figure [ref=f4e268]:
+                - link [ref=f4e271]:
+                  - /url: /fr/photos/homme-muscle-avec-afro-debout-torse-nu-regardant-la-camera-X3Zu5Xdbq_s
+                  - img "Homme musclé avec afro, debout torse nu, regardant la caméra." [ref=f4e272]
+              - figure [ref=f4e273]:
+                - generic [ref=f4e275]:
+                  - link [ref=f4e276]:
+                    - /url: /fr/photos/un-homme-avec-des-tatouages-sur-le-bras-et-la-poitrine-iCSebeEMpBE
+                    - img "un homme avec des tatouages sur le bras et la poitrine" [ref=f4e277]
+                  - link [ref=f4e278] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fun-homme-avec-des-tatouages-sur-le-bras-et-la-poitrine-iCSebeEMpBE
+              - figure [ref=f4e281]:
+                - link [ref=f4e284]:
+                  - /url: /fr/photos/photographie-en-niveaux-de-gris-dun-homme-en-pantalon-noir-UZDQG8H2bEY
+                  - img "Photographie en niveaux de gris d’un homme en pantalon noir" [ref=f4e285]
+              - figure [ref=f4e286]:
+                - link [ref=f4e289]:
+                  - /url: /fr/photos/un-homme-assis-sur-le-sol-les-jambes-croisees-qHvWZFjILk4
+                  - img "un homme assis sur le sol, les jambes croisées" [ref=f4e290]
+          - generic [ref=f4e293]:
+            - heading "Parcourez des images premium sur iStock | Obtenez votre réduction dès maintenant" [level=2] [ref=f4e294]:
+              - text: Parcourez des images premium sur iStock
+              - generic [ref=f4e295]: "| Obtenez votre réduction dès maintenant"
+            - generic [ref=f4e297]:
+              - link [ref=f4e298] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/great-body-and-the-looks-to-go-with-it-gm174938995-21726457?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3Af1207850-83b8-472c-8885-c7fffec3f72e
+                - img "Great corps et les looks qui vont avec." [ref=f4e299]
+              - link [ref=f4e300] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/caucasian-handsome-brunet-man-in-black-underware-in-good-phyisycal-fit-while-posing-gm1366565069-437051776?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3Aa656667e-7af7-42bb-b079-ad99fa0ff171
+                - img "Caucasien Beau Brunet Homme en Sous-vêtement Noir En Bonne Coupe Phyisycal Tout en Posant en Sous-vêtements Tout en touchant les Cheveux sur fond blanc." [ref=f4e301]
+              - link [ref=f4e302] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/macho-man-standing-against-white-background-gm120427637-18248371?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3A8edcb4b0-7640-4f4e-adc4-554a311bf715
+                - img "Macho homme debout sur fond blanc" [ref=f4e303]
+              - link [ref=f4e304] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/portrait-of-young-handsome-red-haired-man-posing-shirtless-in-pants-isolated-over-gm1400256781-453887527?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3Ab0082c0a-c2ef-498c-883b-c384a32e0e1b
+                - img "Portrait d’un jeune bel homme aux cheveux roux posant torse nu dans un pantalon isolé sur fond de studio gris" [ref=f4e305]
+              - link [ref=f4e306] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/young-man-with-anorexia-nervosa-problem-gm507282758-84665909?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3A1ce82a33-553f-4674-b2b4-5188b3b438f7
+                - img "Jeune homme avec Anorexie nerveuse problème." [ref=f4e307]
+              - link [ref=f4e308] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/man-with-vegetable-marrows-gm147003697-7429995?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3A39262fb5-812b-4079-bbfe-465aca266a68
+                - img "Homme avec légumes Marrows" [ref=f4e309]
+              - link [ref=f4e310] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/young-handsome-man-showcasing-confidence-and-strength-in-a-minimalist-studio-setting-gm2188012753-606558607?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3A96903411-10c6-4d14-aa76-ce45683ff928
+                - img "Jeune homme séduisant faisant preuve de confiance et de force dans un studio minimaliste" [ref=f4e311]
+              - generic [ref=f4e312]:
+                - link [ref=f4e313] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/men-diversity-and-inclusion-with-skin-in-studio-for-connection-pyramid-and-support-gm2200785944-618474301?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3A3fbd8d7f-24a0-46c8-bf3f-80a671e65436
+                  - img "Les hommes, la diversité et l’inclusion avec skin in studio pour la connexion, la pyramide et le soutien par origine. Les gens, le groupe et la solidarité avec l’étreinte, le toucher et l’amour avec la positivité corporelle avec l’art pour la g" [ref=f4e314]
+                - link "Rendez-vous sur iStock ↗" [ref=f4e315] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Fman-underwear-editorial&utm_term=man+underwear+editorial%3A%3A%3A%3A160b5ea1-87b2-4aaf-9a9b-279c777c16cd&phrase=man+underwear+editorial&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Plus de résultats" [ref=f4e319] [cursor=pointer]
+          - generic [ref=f4e320]:
+            - link [ref=f4e321] [cursor=pointer]:
+              - /url: /fr
+            - paragraph [ref=f4e324]: Créez quelque chose d’incroyable
+    - generic:
+      - region "Notifications"

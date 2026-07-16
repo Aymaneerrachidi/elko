@@ -1,0 +1,179 @@
+- generic [ref=f5e4]:
+  - navigation [ref=f5e5]:
+    - generic [ref=f5e6]:
+      - generic [ref=f5e7]:
+        - link "Accueil Unsplash" [ref=f5e8] [cursor=pointer]:
+          - /url: /fr
+          - img "Accueil Unsplash" [ref=f5e9]
+        - link "Photos" [ref=f5e11] [cursor=pointer]:
+          - /url: /fr
+        - link "Illustrations" [ref=f5e14] [cursor=pointer]:
+          - /url: /fr/illustrations
+      - generic [ref=f5e17]:
+        - button "Explorer" [ref=f5e18] [cursor=pointer]
+        - button "Collections" [ref=f5e21] [cursor=pointer]
+        - button "Historique de téléchargement" [ref=f5e24] [cursor=pointer]
+      - button "Favoris" [ref=f5e28] [cursor=pointer]
+    - generic [ref=f5e31]:
+      - link "Connexion / S’inscrire" [ref=f5e32] [cursor=pointer]:
+        - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Fboxer-shorts-flat-lay
+      - button "Langue" [ref=f5e35] [cursor=pointer]
+      - button "Menu" [ref=f5e38] [cursor=pointer]
+  - generic [ref=f5e41]:
+    - generic [ref=f5e42]:
+      - navigation [ref=f5e43]:
+        - search "Rechercher des visuels sur tout le site" [ref=f5e45]:
+          - button "Rechercher sur Unsplash" [ref=f5e46] [cursor=pointer]
+          - combobox [ref=f5e49]:
+            - searchbox "Rechercher sur Unsplash" [ref=f5e50]: boxer shorts flat lay
+            - listbox
+          - button "Effacer" [ref=f5e51] [cursor=pointer]
+          - button "Recherche de visuels" [ref=f5e56] [cursor=pointer]
+        - generic [ref=f5e59]:
+          - link "Abonnez-vous à Unsplash+" [ref=f5e60] [cursor=pointer]:
+            - /url: /fr/plus
+          - link "Se connecter" [ref=f5e61] [cursor=pointer]:
+            - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Fboxer-shorts-flat-lay
+        - button "Soumettre une image" [ref=f5e63] [cursor=pointer]
+      - generic [ref=f5e64]:
+        - generic [ref=f5e70]:
+          - list [ref=f5e71]:
+            - listitem [ref=f5e72]:
+              - link "Photos 731":
+                - /url: /fr/s/photos/boxer-shorts-flat-lay
+                - text: Photos
+                - generic: "731"
+            - listitem [ref=f5e73]:
+              - link "Illustrations 19" [ref=f5e74] [cursor=pointer]:
+                - /url: /fr/s/illustrations/boxer-shorts-flat-lay
+                - text: Illustrations
+                - generic [ref=f5e77]: "19"
+            - listitem [ref=f5e78]:
+              - button "Plus" [ref=f5e79] [cursor=pointer]
+          - button [ref=f5e81] [cursor=pointer]
+        - generic [ref=f5e85]:
+          - heading "Boxer shorts flat lay" [level=1] [ref=f5e87]
+          - generic [ref=f5e91]:
+            - link "vêtement" [ref=f5e93] [cursor=pointer]:
+              - /url: /fr/s/photos/v%C3%AAtement
+            - link "short" [ref=f5e95] [cursor=pointer]:
+              - /url: /fr/s/photos/short
+            - link "mode" [ref=f5e97] [cursor=pointer]:
+              - /url: /fr/s/photos/mode
+            - link "pourpre" [ref=f5e99] [cursor=pointer]:
+              - /url: /fr/s/photos/pourpre
+            - link "bleu" [ref=f5e101] [cursor=pointer]:
+              - /url: /fr/s/photos/bleu
+            - link "pose à plat" [ref=f5e103] [cursor=pointer]:
+              - /url: /fr/s/photos/pose-%C3%A0-plat
+            - link "vêtements vintage" [ref=f5e105] [cursor=pointer]:
+              - /url: /fr/s/photos/v%C3%AAtements-vintage
+            - link "Mode d’été" [ref=f5e107] [cursor=pointer]:
+              - /url: /fr/s/photos/mode-d%E2%80%99%C3%A9t%C3%A9
+            - link "lunettes de soleil" [ref=f5e109] [cursor=pointer]:
+              - /url: /fr/s/photos/lunettes-de-soleil
+            - link "Mode chinée" [ref=f5e111] [cursor=pointer]:
+              - /url: /fr/s/photos/mode-chin%C3%A9e
+            - link "vêtements d’été" [ref=f5e113] [cursor=pointer]:
+              - /url: /fr/s/photos/v%C3%AAtements-d%E2%80%99%C3%A9t%C3%A9
+            - link "Style décontracté" [ref=f5e115] [cursor=pointer]:
+              - /url: /fr/s/photos/style-d%C3%A9contract%C3%A9
+        - generic [ref=f5e117]:
+          - generic [ref=f5e121]:
+            - generic [ref=f5e122]:
+              - figure [ref=f5e123]:
+                - link [ref=f5e126]:
+                  - /url: /fr/photos/accessoires-dete-y-compris-des-shorts-des-chapeaux-et-des-lunettes-de-soleil-1VGJmtFy1sg
+                  - img "Accessoires d’été, y compris des shorts, des chapeaux et des lunettes de soleil." [ref=f5e127]
+              - figure [ref=f5e128]:
+                - link [ref=f5e131]:
+                  - /url: /fr/photos/short-noir-et-blanc-accroche-sur-cintre-HKAZ-k4h2NE
+                  - img "short noir et blanc accroché sur cintre" [ref=f5e132]
+              - generic [ref=f5e133]:
+                - heading "Images sponsorisées" [level=4] [ref=f5e134]
+                - generic [ref=f5e143]: ––– – –– –– – –– –––– ––– ––––
+              - figure [ref=f5e144]:
+                - link [ref=f5e147]:
+                  - /url: /fr/photos/femme-en-short-en-jean-lisant-un-livre-sur-le-canape-7EwfgVep38E
+                  - img "Femme en short en jean lisant un livre sur le canapé" [ref=f5e148]
+              - figure [ref=f5e149]:
+                - link [ref=f5e152]:
+                  - /url: /fr/photos/une-veste-en-cuir-noir-avec-une-etiquette-doree-dessus-urdhI_PwrFM
+                  - img "une veste en cuir noir avec une étiquette dorée dessus" [ref=f5e153]
+              - figure [ref=f5e154]:
+                - link [ref=f5e157]:
+                  - /url: /fr/photos/textile-plie-a-carreaux-blanc-et-noir-et-chapeau-de-soleil-beige-uU2EmYVBtBk
+                  - img "Textile plié à carreaux blanc et noir et chapeau de soleil beige" [ref=f5e158]
+              - figure [ref=f5e159]:
+                - link [ref=f5e162]:
+                  - /url: /fr/photos/un-sac-en-plastique-avec-un-telephone-portable-a-linterieur-At7q7jL_K5E
+                  - img "un sac en plastique avec un téléphone portable à l’intérieur" [ref=f5e163]
+              - figure [ref=f5e164]:
+                - link [ref=f5e167]:
+                  - /url: /fr/photos/une-paire-de-ciseaux-roses-coinces-dans-une-veste-bleue-wEhjOTdloKo
+                  - img "Une paire de ciseaux roses coincés dans une veste bleue" [ref=f5e168]
+              - figure [ref=f5e169]:
+                - link [ref=f5e172]:
+                  - /url: /fr/photos/un-short-bleu-accroche-a-un-cintre-v5jTUTeuc1c
+                  - img "un short bleu accroché à un cintre" [ref=f5e173]
+              - figure [ref=f5e174]:
+                - link [ref=f5e177]:
+                  - /url: /fr/photos/chapeau-de-soleil-short-et-lunettes-de-soleil-sur-une-table-4twxavSlPHA
+                  - img "Chapeau de soleil, short et lunettes de soleil sur une table." [ref=f5e178]
+              - figure [ref=f5e179]:
+                - link [ref=f5e182]:
+                  - /url: /fr/photos/homme-en-short-rouge-debout-pres-de-lusine-verte-A0VqdVOv6c4
+                  - img "homme en short rouge debout près de l’usine verte" [ref=f5e183]
+            - generic [ref=f5e184]:
+              - contentinfo [ref=f5e189]:
+                - generic [ref=f5e190]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=f5e197]:
+                - link [ref=f5e200]:
+                  - /url: /fr/photos/gros-plan-dune-paire-de-sous-vetements-sur-une-surface-blanche-SGZmzGx0dG0
+                  - img "Gros plan d’une paire de sous-vêtements sur une surface blanche" [ref=f5e201]
+              - figure [ref=f5e202]:
+                - link [ref=f5e205]:
+                  - /url: /fr/photos/une-tablette-de-pierre-avec-lecriture-dessus-Dz_WKOrSnwE
+                  - img "une tablette de pierre avec l’écriture dessus" [ref=f5e206]
+              - figure [ref=f5e207]:
+                - link [ref=f5e210]:
+                  - /url: /fr/photos/un-couple-dhommes-debout-lun-a-cote-de-lautre-2jpxKPRUFIM
+                  - img "un couple d’hommes debout l’un à côté de l’autre" [ref=f5e211]
+              - figure [ref=f5e212]:
+                - link [ref=f5e215]:
+                  - /url: /fr/photos/short-orange-avec-un-texte-demode-sur-le-mur--0RcAW-6nGA
+                  - img "Short orange avec un texte « démodé » sur le mur" [ref=f5e216]
+              - figure [ref=f5e217]:
+                - link [ref=f5e220]:
+                  - /url: /fr/photos/une-femme-allongee-sur-le-sol-a-cote-dune-pile-de-vetements-i6XdlWgQhg0
+                  - img "une femme allongée sur le sol à côté d’une pile de vêtements" [ref=f5e221]
+              - figure [ref=f5e222]:
+                - link [ref=f5e225]:
+                  - /url: /fr/photos/un-homme-debout-devant-une-cheminee-tenant-une-camera-uKkYxz5cUnY
+                  - img "Un homme debout devant une cheminée tenant une caméra" [ref=f5e226]
+              - figure [ref=f5e227]:
+                - link [ref=f5e230]:
+                  - /url: /fr/photos/chaussettes-regroupees-avec-un-ruban-sur-une-boite-rouge-IRODjMivSoo
+                  - img "Chaussettes regroupées avec un ruban sur une boîte rouge." [ref=f5e231]
+              - figure [ref=f5e232]:
+                - link [ref=f5e235]:
+                  - /url: /fr/photos/trois-shorts-cove-five-de-couleurs-assorties-1x3YEJZssRU
+                  - img "trois shorts Cove Five de couleurs assorties" [ref=f5e236]
+              - figure [ref=f5e237]:
+                - link [ref=f5e240]:
+                  - /url: /fr/photos/une-femme-allongee-sur-un-lit-avec-une-robe-rouge-8fbia7I-7nA
+                  - img "Une femme allongée sur un lit avec une robe rouge" [ref=f5e241]
+              - figure [ref=f5e242]:
+                - link [ref=f5e245]:
+                  - /url: /fr/photos/une-femme-pose-dans-un-haut-blanc-et-un-short-dVfSBQ62M_0
+                  - img "Une femme pose dans un haut blanc et un short." [ref=f5e246]
+          - heading "Parcourez des images premium sur iStock | Obtenez votre réduction dès maintenant" [level=2] [ref=f5e250]:
+            - text: Parcourez des images premium sur iStock
+            - generic [ref=f5e251]: "| Obtenez votre réduction dès maintenant"
+          - button "Plus de résultats" [ref=f5e265] [cursor=pointer]
+          - generic [ref=f5e266]:
+            - link [ref=f5e267] [cursor=pointer]:
+              - /url: /fr
+            - paragraph [ref=f5e270]: Créez quelque chose d’incroyable
+    - generic:
+      - region "Notifications"

@@ -1,0 +1,348 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e4]:
+    - generic [ref=f11e5]: Free Shipping on Orders Over $50
+    - generic [ref=f11e7]: 365-Day Quality Guarantee
+    - generic [ref=f11e9]: "Get 15% Off Your First Order — Code: ELKO15"
+    - generic [ref=f11e11]: Free Shipping on Orders Over $50
+    - generic [ref=f11e13]: 365-Day Quality Guarantee
+    - generic [ref=f11e15]: "Get 15% Off Your First Order — Code: ELKO15"
+  - banner [ref=f11e17]:
+    - generic [ref=f11e19]:
+      - link "ELKO" [ref=f11e20] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f11e21]:
+        - link "Shop" [ref=f11e23] [cursor=pointer]:
+          - /url: /shop
+        - link "New Arrivals" [ref=f11e26] [cursor=pointer]:
+          - /url: /shop?badge=new
+        - link "Best Sellers" [ref=f11e27] [cursor=pointer]:
+          - /url: /shop?badge=best-seller
+        - link "Collections" [ref=f11e28] [cursor=pointer]:
+          - /url: /collections
+        - link "About" [ref=f11e29] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=f11e30] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f11e31]:
+        - button "Search" [ref=f11e32] [cursor=pointer]
+        - link "Wishlist" [ref=f11e36] [cursor=pointer]:
+          - /url: /wishlist
+        - link "Account" [ref=f11e39] [cursor=pointer]:
+          - /url: /account
+        - button "Shopping bag, 0 items" [ref=f11e43] [cursor=pointer]
+  - main [ref=f11e47]:
+    - generic [ref=f11e48]:
+      - navigation [ref=f11e49]:
+        - link "Home" [ref=f11e50] [cursor=pointer]:
+          - /url: /
+        - text: /
+        - link "Shop" [ref=f11e51] [cursor=pointer]:
+          - /url: /shop
+        - text: /
+        - generic [ref=f11e52]: Essential Boxer Brief
+      - generic [ref=f11e53]:
+        - generic [ref=f11e54]:
+          - generic [ref=f11e55]:
+            - button [ref=f11e56] [cursor=pointer]:
+              - img "Essential Boxer Brief view 1" [ref=f11e57]
+            - button [ref=f11e58] [cursor=pointer]:
+              - img "Essential Boxer Brief view 2" [ref=f11e59]
+            - button [ref=f11e60] [cursor=pointer]:
+              - img "Essential Boxer Brief view 3" [ref=f11e61]
+            - button [ref=f11e62] [cursor=pointer]
+          - img "Essential Boxer Brief — main image" [ref=f11e68]
+        - generic [ref=f11e69]:
+          - paragraph [ref=f11e70]: EVERYDAY COLLECTION
+          - heading "Essential Boxer Brief" [level=1] [ref=f11e71]
+          - generic [ref=f11e72]:
+            - generic "Rated 4.8 out of 5" [ref=f11e73]
+            - link "4.8 (1284 reviews)" [ref=f11e84] [cursor=pointer]:
+              - /url: "#reviews"
+          - generic [ref=f11e85]:
+            - generic [ref=f11e86]: $32.00
+            - generic [ref=f11e87]: $42.00
+          - paragraph [ref=f11e88]: The ELKO Essential Boxer Brief is our signature everyday pair — engineered from a 95% premium cotton and 5% elastane blend for a no-ride-up fit that moves with you. A tagless waistband and flat-lock seams keep the entire experience frictionless from morning to night.
+          - generic [ref=f11e89]:
+            - paragraph [ref=f11e90]: COLOR — Black
+            - generic [ref=f11e91]:
+              - button "Black" [ref=f11e92] [cursor=pointer]
+              - button "Charcoal" [ref=f11e93] [cursor=pointer]
+              - button "Navy" [ref=f11e94] [cursor=pointer]
+          - generic [ref=f11e95]:
+            - generic [ref=f11e96]:
+              - paragraph [ref=f11e97]: SIZE
+              - button "Size Guide" [ref=f11e98] [cursor=pointer]
+            - generic [ref=f11e105]:
+              - button "S" [ref=f11e106] [cursor=pointer]
+              - button "M" [ref=f11e107] [cursor=pointer]
+              - button "L" [ref=f11e108] [cursor=pointer]
+              - button "XL" [ref=f11e109] [cursor=pointer]
+              - button "XXL" [ref=f11e110] [cursor=pointer]
+          - generic [ref=f11e111]:
+            - paragraph [ref=f11e112]: QTY
+            - generic [ref=f11e113]:
+              - button "Decrease quantity" [ref=f11e114] [cursor=pointer]
+              - generic [ref=f11e116]: "1"
+              - button "Increase quantity" [ref=f11e117] [cursor=pointer]
+          - generic [ref=f11e119]:
+            - button "Select a Size" [disabled] [ref=f11e120]
+            - button "Add to wishlist" [ref=f11e121] [cursor=pointer]
+          - generic [ref=f11e124]:
+            - generic [ref=f11e125]: Free shipping, arrives in 3–5 days
+            - generic [ref=f11e132]: 365-day quality guarantee
+            - generic [ref=f11e137]: Secure checkout
+          - generic [ref=f11e142]:
+            - generic [ref=f11e143]:
+              - button "Description" [ref=f11e144] [cursor=pointer]
+              - paragraph [ref=f11e151]: The ELKO Essential Boxer Brief is our signature everyday pair — engineered from a 95% premium cotton and 5% elastane blend for a no-ride-up fit that moves with you. A tagless waistband and flat-lock seams keep the entire experience frictionless from morning to night.
+            - generic [ref=f11e152]:
+              - button "Highlights" [ref=f11e153] [cursor=pointer]
+              - list [ref=f11e158]:
+                - listitem [ref=f11e159]: 95% Premium Cotton, 5% Elastane
+                - listitem [ref=f11e160]: Tagless comfort waistband
+                - listitem [ref=f11e161]: Flat-lock seams, zero chafing
+                - listitem [ref=f11e162]: 4-way stretch construction
+            - generic [ref=f11e163]:
+              - button "Materials" [ref=f11e164] [cursor=pointer]
+              - paragraph [ref=f11e169]: 95% Cotton, 5% Elastane. OEKO-TEX certified dyes.
+            - generic [ref=f11e170]:
+              - button "Care Instructions" [ref=f11e171] [cursor=pointer]
+              - list [ref=f11e176]:
+                - listitem [ref=f11e177]: Machine wash cold
+                - listitem [ref=f11e178]: Do not bleach
+                - listitem [ref=f11e179]: Tumble dry low
+                - listitem [ref=f11e180]: Do not iron print
+            - generic [ref=f11e181]:
+              - button "Shipping" [ref=f11e182] [cursor=pointer]
+              - paragraph [ref=f11e187]: Free standard shipping on orders over $50. Express shipping available at checkout. Orders ship within 1 business day.
+            - generic [ref=f11e188]:
+              - button "Returns" [ref=f11e189] [cursor=pointer]
+              - paragraph [ref=f11e194]: Free returns within 60 days. Unworn items with tags attached qualify for a full refund under our 365-day quality guarantee.
+      - generic [ref=f11e195]:
+        - heading "Customer Reviews" [level=2] [ref=f11e196]
+        - generic [ref=f11e197]:
+          - generic [ref=f11e199]:
+            - paragraph [ref=f11e200]: "4.8"
+            - generic "Rated 4.8 out of 5" [ref=f11e201]
+            - paragraph [ref=f11e212]: Based on 1284 reviews
+          - generic [ref=f11e213]:
+            - generic [ref=f11e214]:
+              - generic [ref=f11e215]:
+                - generic [ref=f11e216]:
+                  - generic [ref=f11e217]: Marcus T.
+                  - generic [ref=f11e218]: Verified Purchase
+                - generic [ref=f11e222]: 2026-05-14
+              - generic "Rated 5 out of 5" [ref=f11e223]
+              - paragraph [ref=f11e234]: Best fit I've owned
+              - paragraph [ref=f11e235]: The waistband doesn't roll and the fabric stays soft after 30+ washes. Worth every penny.
+              - paragraph [ref=f11e236]: "Purchased size M · Fit: True to Size"
+            - generic [ref=f11e237]:
+              - generic [ref=f11e238]:
+                - generic [ref=f11e239]:
+                  - generic [ref=f11e240]: James R.
+                  - generic [ref=f11e241]: Verified Purchase
+                - generic [ref=f11e245]: 2026-04-02
+              - generic "Rated 4 out of 5" [ref=f11e246]
+              - paragraph [ref=f11e257]: Great everyday pair
+              - paragraph [ref=f11e258]: Comfortable all day at the office. Sized up once and it was perfect.
+              - paragraph [ref=f11e259]: "Purchased size L · Fit: Runs Small"
+            - generic [ref=f11e260]:
+              - generic [ref=f11e261]:
+                - generic [ref=f11e262]:
+                  - generic [ref=f11e263]: Daniel K.
+                  - generic [ref=f11e264]: Verified Purchase
+                - generic [ref=f11e268]: 2026-03-21
+              - generic "Rated 5 out of 5" [ref=f11e269]
+              - paragraph [ref=f11e280]: No more chafing
+              - paragraph [ref=f11e281]: Switched from a big-box brand and the difference in breathability is night and day.
+              - paragraph [ref=f11e282]: "Purchased size L · Fit: True to Size"
+      - generic [ref=f11e283]:
+        - heading "You May Also Like" [level=2] [ref=f11e284]
+        - generic [ref=f11e285]:
+          - generic [ref=f11e286]:
+            - generic [ref=f11e288]:
+              - link [ref=f11e289] [cursor=pointer]:
+                - /url: /product/bamboo-boxer-brief
+                - img "Bamboo Boxer Brief" [ref=f11e290]
+              - generic [ref=f11e292]: LIMITED
+              - button "Add to wishlist" [ref=f11e294] [cursor=pointer]
+              - button "Quick view" [ref=f11e297] [cursor=pointer]
+              - button "QUICK ADD" [ref=f11e302] [cursor=pointer]
+            - generic [ref=f11e303]:
+              - generic [ref=f11e304]:
+                - generic "Rated 4.9 out of 5" [ref=f11e305]
+                - generic [ref=f11e316]: (302)
+              - link [ref=f11e317] [cursor=pointer]:
+                - /url: /product/bamboo-boxer-brief
+                - heading "Bamboo Boxer Brief" [level=3] [ref=f11e318]
+              - paragraph [ref=f11e319]: Bamboo
+              - generic [ref=f11e320]: $36.00
+              - generic [ref=f11e322]:
+                - generic "Forest" [ref=f11e323]
+                - generic "Black" [ref=f11e324]
+                - generic "Clay" [ref=f11e325]
+          - generic [ref=f11e326]:
+            - generic [ref=f11e328]:
+              - link [ref=f11e329] [cursor=pointer]:
+                - /url: /product/premium-modal-trunk
+                - img "Premium Modal Trunk" [ref=f11e330]
+              - generic [ref=f11e332]: NEW
+              - button "Add to wishlist" [ref=f11e334] [cursor=pointer]
+              - button "Quick view" [ref=f11e337] [cursor=pointer]
+              - button "QUICK ADD" [ref=f11e342] [cursor=pointer]
+            - generic [ref=f11e343]:
+              - generic [ref=f11e344]:
+                - generic "Rated 4.9 out of 5" [ref=f11e345]
+                - generic [ref=f11e356]: (632)
+              - link [ref=f11e357] [cursor=pointer]:
+                - /url: /product/premium-modal-trunk
+                - heading "Premium Modal Trunk" [level=3] [ref=f11e358]
+              - paragraph [ref=f11e359]: Modal
+              - generic [ref=f11e360]: $38.00
+              - generic [ref=f11e362]:
+                - generic "Onyx" [ref=f11e363]
+                - generic "Stone" [ref=f11e364]
+                - generic "Deep Green" [ref=f11e365]
+          - generic [ref=f11e366]:
+            - generic [ref=f11e368]:
+              - link [ref=f11e369] [cursor=pointer]:
+                - /url: /product/cotton-brief-white
+                - img "Cotton Brief" [ref=f11e370]
+              - button "Add to wishlist" [ref=f11e372] [cursor=pointer]
+              - button "Quick view" [ref=f11e375] [cursor=pointer]
+              - button "QUICK ADD" [ref=f11e380] [cursor=pointer]
+            - generic [ref=f11e381]:
+              - generic [ref=f11e382]:
+                - generic "Rated 4.6 out of 5" [ref=f11e383]
+                - generic [ref=f11e394]: (891)
+              - link [ref=f11e395] [cursor=pointer]:
+                - /url: /product/cotton-brief-white
+                - heading "Cotton Brief" [level=3] [ref=f11e396]
+              - paragraph [ref=f11e397]: Premium Cotton
+              - generic [ref=f11e398]: $26.00
+              - generic [ref=f11e400]:
+                - generic "White" [ref=f11e401]
+                - generic "Black" [ref=f11e402]
+                - generic "Grey Marl" [ref=f11e403]
+          - generic [ref=f11e404]:
+            - generic [ref=f11e406]:
+              - link [ref=f11e407] [cursor=pointer]:
+                - /url: /product/performance-boxer
+                - img "Performance Boxer" [ref=f11e408]
+              - generic [ref=f11e410]:
+                - generic [ref=f11e411]: BEST SELLER
+                - generic [ref=f11e412]: "-23%"
+              - button "Add to wishlist" [ref=f11e413] [cursor=pointer]
+              - button "Quick view" [ref=f11e416] [cursor=pointer]
+              - button "QUICK ADD" [ref=f11e421] [cursor=pointer]
+            - generic [ref=f11e422]:
+              - generic [ref=f11e423]:
+                - generic "Rated 4.7 out of 5" [ref=f11e424]
+                - generic [ref=f11e435]: (445)
+              - link [ref=f11e436] [cursor=pointer]:
+                - /url: /product/performance-boxer
+                - heading "Performance Boxer" [level=3] [ref=f11e437]
+              - paragraph [ref=f11e438]: Performance Mesh
+              - generic [ref=f11e439]:
+                - generic [ref=f11e440]: $34.00
+                - generic [ref=f11e441]: $44.00
+              - generic [ref=f11e442]:
+                - generic "Jet Black" [ref=f11e443]
+                - generic "Steel" [ref=f11e444]
+  - contentinfo [ref=f11e445]:
+    - generic [ref=f11e446]:
+      - generic [ref=f11e447]:
+        - generic [ref=f11e448]:
+          - paragraph [ref=f11e449]: ELKO
+          - paragraph [ref=f11e450]: Premium everyday essentials engineered for comfort and designed for confidence.
+          - generic [ref=f11e451]:
+            - link "Social link" [ref=f11e452] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f11e455] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f11e458] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f11e461] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f11e464]:
+          - paragraph [ref=f11e465]: SHOP
+          - list [ref=f11e466]:
+            - listitem [ref=f11e467]:
+              - link "Boxer Briefs" [ref=f11e468] [cursor=pointer]:
+                - /url: /shop?category=Boxer Briefs
+            - listitem [ref=f11e469]:
+              - link "Trunks" [ref=f11e470] [cursor=pointer]:
+                - /url: /shop?category=Trunks
+            - listitem [ref=f11e471]:
+              - link "Briefs" [ref=f11e472] [cursor=pointer]:
+                - /url: /shop?category=Briefs
+            - listitem [ref=f11e473]:
+              - link "Multipacks" [ref=f11e474] [cursor=pointer]:
+                - /url: /shop?category=Multipacks
+            - listitem [ref=f11e475]:
+              - link "New Arrivals" [ref=f11e476] [cursor=pointer]:
+                - /url: /shop?badge=new
+        - generic [ref=f11e477]:
+          - paragraph [ref=f11e478]: CUSTOMER SUPPORT
+          - list [ref=f11e479]:
+            - listitem [ref=f11e480]:
+              - link "Contact Us" [ref=f11e481] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f11e482]:
+              - link "Size Guide" [ref=f11e483] [cursor=pointer]:
+                - /url: /size-guide
+            - listitem [ref=f11e484]:
+              - link "Shipping Info" [ref=f11e485] [cursor=pointer]:
+                - /url: /shipping
+            - listitem [ref=f11e486]:
+              - link "Returns & Exchanges" [ref=f11e487] [cursor=pointer]:
+                - /url: /returns
+            - listitem [ref=f11e488]:
+              - link "FAQ" [ref=f11e489] [cursor=pointer]:
+                - /url: /contact#faq
+        - generic [ref=f11e490]:
+          - paragraph [ref=f11e491]: COMPANY
+          - list [ref=f11e492]:
+            - listitem [ref=f11e493]:
+              - link "About ELKO" [ref=f11e494] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f11e495]:
+              - link "Sustainability" [ref=f11e496] [cursor=pointer]:
+                - /url: /about#sustainability
+            - listitem [ref=f11e497]:
+              - link "Our Fabrics" [ref=f11e498] [cursor=pointer]:
+                - /url: /#fabrics
+            - listitem [ref=f11e499]:
+              - link "Account" [ref=f11e500] [cursor=pointer]:
+                - /url: /account
+            - listitem [ref=f11e501]:
+              - link "Wishlist" [ref=f11e502] [cursor=pointer]:
+                - /url: /wishlist
+        - generic [ref=f11e503]:
+          - paragraph [ref=f11e504]: LEGAL
+          - list [ref=f11e505]:
+            - listitem [ref=f11e506]:
+              - link "Privacy Policy" [ref=f11e507] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f11e508]:
+              - link "Terms of Service" [ref=f11e509] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=f11e510]:
+              - link "Cookie Policy" [ref=f11e511] [cursor=pointer]:
+                - /url: /cookies
+      - generic [ref=f11e512]:
+        - generic [ref=f11e513]:
+          - paragraph [ref=f11e514]: Get 15% Off Your First Order
+          - paragraph [ref=f11e515]: Sign up for exclusive drops, restocks, and offers.
+        - generic [ref=f11e516]:
+          - textbox "Enter your email" [ref=f11e517]
+          - button "Subscribe" [ref=f11e518] [cursor=pointer]
+      - generic [ref=f11e521]:
+        - paragraph [ref=f11e522]: © 2026 ELKO. All rights reserved.
+        - generic [ref=f11e523]:
+          - generic [ref=f11e524]: VISA
+          - generic [ref=f11e525]: Mastercard
+          - generic [ref=f11e526]: Amex
+          - generic [ref=f11e527]: Apple Pay
+          - generic [ref=f11e528]: PayPal
+  - button "Open Next.js Dev Tools" [ref=f11e534] [cursor=pointer]

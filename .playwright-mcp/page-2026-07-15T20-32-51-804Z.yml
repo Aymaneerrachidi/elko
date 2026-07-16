@@ -1,0 +1,244 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link "Accueil Unsplash" [ref=e8] [cursor=pointer]:
+          - /url: /fr
+          - img "Accueil Unsplash" [ref=e9]
+        - link "Photos" [ref=e11] [cursor=pointer]:
+          - /url: /fr
+        - link "Illustrations" [ref=e14] [cursor=pointer]:
+          - /url: /fr/illustrations
+      - generic [ref=e17]:
+        - button "Explorer" [ref=e18] [cursor=pointer]
+        - button "Collections" [ref=e21] [cursor=pointer]
+        - button "Historique de téléchargement" [ref=e24] [cursor=pointer]
+      - button "Favoris" [ref=e28] [cursor=pointer]
+    - generic [ref=e31]:
+      - link "Connexion / S’inscrire" [ref=e32] [cursor=pointer]:
+        - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal
+      - button "Langue" [ref=e35] [cursor=pointer]
+      - button "Menu" [ref=e38] [cursor=pointer]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - navigation [ref=e43]:
+        - search "Rechercher des visuels sur tout le site" [ref=e45]:
+          - button "Rechercher sur Unsplash" [ref=e46] [cursor=pointer]
+          - combobox [ref=e49]:
+            - searchbox "Rechercher sur Unsplash" [ref=e50]: folded clothes flat lay minimal
+            - listbox
+          - button "Effacer" [ref=e51] [cursor=pointer]
+          - button "Recherche de visuels" [ref=e56] [cursor=pointer]
+        - generic [ref=e59]:
+          - link "Abonnez-vous à Unsplash+" [ref=e60] [cursor=pointer]:
+            - /url: /fr/plus
+          - link "Se connecter" [ref=e61] [cursor=pointer]:
+            - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal
+        - button "Soumettre une image" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Photos 2 k":
+                - /url: /fr/s/photos/folded-clothes-flat-lay-minimal
+                - text: Photos
+                - generic: 2 k
+            - listitem [ref=e73]:
+              - link "Illustrations 103" [ref=e74] [cursor=pointer]:
+                - /url: /fr/s/illustrations/folded-clothes-flat-lay-minimal
+                - text: Illustrations
+                - generic [ref=e77]: "103"
+            - listitem [ref=e78]:
+              - button "Plus" [ref=e79] [cursor=pointer]
+          - button [ref=e81] [cursor=pointer]
+        - generic [ref=e85]:
+          - heading "Folded clothes flat lay minimal" [level=1] [ref=e87]
+          - generic [ref=e89]:
+            - button "faire défiler la liste vers la droite" [ref=e91] [cursor=pointer]
+            - generic [ref=e95]:
+              - link "vêtement" [ref=e97] [cursor=pointer]:
+                - /url: /fr/s/photos/v%C3%AAtement
+              - link "tenue" [ref=e99] [cursor=pointer]:
+                - /url: /fr/s/photos/tenue
+              - link "pose à plat" [ref=e101] [cursor=pointer]:
+                - /url: /fr/s/photos/pose-%C3%A0-plat
+              - link "lunettes de soleil" [ref=e103] [cursor=pointer]:
+                - /url: /fr/s/photos/lunettes-de-soleil
+              - link "mode" [ref=e105] [cursor=pointer]:
+                - /url: /fr/s/photos/mode
+              - link "minimaliste" [ref=e107] [cursor=pointer]:
+                - /url: /fr/s/photos/minimaliste
+              - link "Essentiels de la garde-robe" [ref=e109] [cursor=pointer]:
+                - /url: /fr/s/photos/essentiels-de-la-garde--robe
+              - link "Planification de la tenue" [ref=e111] [cursor=pointer]:
+                - /url: /fr/s/photos/planification-de-la-tenue
+              - link "Pose à plat moderne" [ref=e113] [cursor=pointer]:
+                - /url: /fr/s/photos/pose-%C3%A0-plat-moderne
+              - link "pose à plat de mode" [ref=e115] [cursor=pointer]:
+                - /url: /fr/s/photos/pose-%C3%A0-plat-de-mode
+              - link "vêtements chaud" [ref=e117] [cursor=pointer]:
+                - /url: /fr/s/photos/v%C3%AAtements-chaud
+              - link "Vêtements à plat" [ref=e119] [cursor=pointer]:
+                - /url: /fr/s/photos/v%C3%AAtements-%C3%A0-plat
+        - generic [ref=e121]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - figure [ref=e127]:
+                - generic [ref=e129]:
+                  - link [ref=e130]:
+                    - /url: /fr/photos/pose-a-plat-de-vetements-et-daccessoires-decontractes-pour-le-voyage-CL7vUhACCZ8
+                    - img "Pose à plat de vêtements et d’accessoires décontractés pour le voyage" [ref=e131]
+                  - link [ref=e132] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fpose-a-plat-de-vetements-et-daccessoires-decontractes-pour-le-voyage-CL7vUhACCZ8
+              - figure [ref=e135]:
+                - link [ref=e138]:
+                  - /url: /fr/photos/pile-of-black-white-and-gray-textiles-on-white-padded-chair-with-brown-frame-fr0J5-GIVyg
+                  - img "pile of black, white, and gray textiles on white padded chair with brown frame" [ref=e139]
+              - generic [ref=e140]:
+                - heading "Images sponsorisées" [level=4] [ref=e141]:
+                  - link [ref=e143] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3A169fccc9-7bb7-496f-9c05-76c40c436a17&phrase=folded+clothes+flat+lay+minimal&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                - generic [ref=e146]:
+                  - link [ref=e147] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/blue-clothing-items-neatly-arranged-on-a-vibrant-blue-background-gm2246397011-660355501?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3A9e39ca7e-3ae8-4d26-9779-18a6c524711b
+                    - img "Des vêtements bleus soigneusement disposés sur un fond bleu vif." [ref=e148]
+                  - link [ref=e149] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/white-flying-cotton-t-shirt-blue-jeans-white-leather-sneakers-fashionable-pink-gm1386033559-444504498?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3Ab43edc0a-91d9-4264-9930-576022afc539
+                    - img "T-shirt en coton volant blanc, jeans bleus, baskets en cuir blanc, veste blazer rose à la mode isolée sur fond gris. Nettoyer les vêtements de marque. Maquette pour votre conception. Vêtements printemps-été" [ref=e150]
+                  - link [ref=e151] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/pile-of-colored-sweaters-isolated-on-white-gm135171482-7305716?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3Ad86e8973-b690-4378-8682-d2b96f94fd7b
+                    - img "Pile de pulls" [ref=e152]
+                  - link [ref=e153] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/casual-summer-outfit-arrangement-on-bed-featuring-light-clothing-and-stylish-hat-gm2178858220-598167011?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3A1e619309-6480-4c79-ab56-7abb07c3eb9f
+                    - img "Arrangement de tenue d’été décontractée sur le lit, avec des vêtements légers et un chapeau élégant." [ref=e154]
+                - link "Économisez 20 % avec le code UNSPLASH20" [ref=e155] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3A169fccc9-7bb7-496f-9c05-76c40c436a17&phrase=folded+clothes+flat+lay+minimal&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e156]:
+                - generic [ref=e158]:
+                  - link [ref=e159]:
+                    - /url: /fr/photos/vetements-cahier-et-lunettes-sur-fond-blanc-EFfN5zRwhRA
+                    - img "Vêtements, cahier et lunettes sur fond blanc." [ref=e160]
+                  - link [ref=e161] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fvetements-cahier-et-lunettes-sur-fond-blanc-EFfN5zRwhRA
+              - figure [ref=e164]:
+                - link [ref=e167]:
+                  - /url: /fr/photos/chandail-en-tricot-blanc-sur-surface-en-bois-blanc-xEraWP_ZRGU
+                  - img "chandail en tricot blanc sur surface en bois blanc" [ref=e168]
+              - figure [ref=e169]:
+                - generic [ref=e171]:
+                  - link [ref=e172]:
+                    - /url: /fr/photos/pose-a-plat-darticles-de-voyage-essentiels-et-de-vetements-clK5ZFcovc8
+                    - img "Pose à plat d’articles de voyage essentiels et de vêtements" [ref=e173]
+                  - link [ref=e174] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fpose-a-plat-darticles-de-voyage-essentiels-et-de-vetements-clK5ZFcovc8
+              - figure [ref=e177]:
+                - link [ref=e180]:
+                  - /url: /fr/photos/une-pile-de-vetements-plies-sur-une-surface-blanche-NUx4Jo9NAdY
+                  - img "une pile de vêtements pliés sur une surface blanche" [ref=e181]
+              - figure [ref=e182]:
+                - link [ref=e185]:
+                  - /url: /fr/photos/une-paire-de-lunettes-une-pelote-de-laine-une-paire-de-lunettes-de-soleil-et-9Pspyy5lEMw
+                  - img "une paire de lunettes, une pelote de laine, une paire de lunettes de soleil, et" [ref=e186]
+              - figure [ref=e187]:
+                - generic [ref=e189]:
+                  - link [ref=e190]:
+                    - /url: /fr/photos/couche-plate-du-style-de-vie-de-lhomme-XyTBrT05h4Q
+                    - img "Couche plate du style de vie de l’homme" [ref=e191]
+                  - link [ref=e192] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fcouche-plate-du-style-de-vie-de-lhomme-XyTBrT05h4Q
+              - figure [ref=e195]:
+                - link [ref=e198]:
+                  - /url: /fr/photos/trois-t-shirts-poses-les-uns-sur-les-autres-CztYfHeb_Ow
+                  - img "trois t-shirts posés les uns sur les autres" [ref=e199]
+              - figure [ref=e200]:
+                - generic [ref=e202]:
+                  - link [ref=e203]:
+                    - /url: /fr/photos/vetements-et-appareil-photo-prets-pour-le-voyage-PODgb3i9l-o
+                    - img "Vêtements et appareil photo, prêts pour le voyage." [ref=e204]
+                  - link [ref=e205] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fvetements-et-appareil-photo-prets-pour-le-voyage-PODgb3i9l-o
+              - figure [ref=e208]:
+                - link [ref=e211]:
+                  - /url: /fr/photos/t-shirt-a-col-rond-blanc-et-bottes-en-cuir-marron-gUPiTDBdRe4
+                  - img "T-shirt à col rond blanc et bottes en cuir marron" [ref=e212]
+            - generic [ref=e213]:
+              - link "On-brand and on budget images for your next campaign Learn More" [ref=e216] [cursor=pointer]:
+                - /url: https://e-10457.adzerk.net/r?e=eyJ2IjoiMS4xNCIsImF2Ijo4MjM1NTIsImF0Ijo1LCJidCI6MCwiY20iOjk0ODU5NTcsImNoIjo0NTE2MywiY2siOnt9LCJjciI6MzY0OTkzNjA3LCJkaSI6IjhjM2RhMDBkNWZhZDRiOTVhZDg0MzZkOWViNDczOGM0IiwiZGoiOjAsImlpIjoiMWQwMzIwMDczM2FjNGVlOGI0ZWEwOGViNzgxZTU3YzEiLCJkbSI6MywiZmMiOjU0MDEzMDcxNywiZmwiOjU1ODQ4Njg0LCJpcCI6IjQxLjI0OC4xNjIuMjMiLCJudyI6MTA0NTcsInBjIjowLCJvcCI6MCwibXAiOjAsImVjIjowLCJnbSI6MCwiZXAiOm51bGwsInByIjoyMDgyODMsInJ0IjoxLCJycyI6NTAwLCJzYSI6Ijk2Iiwic2IiOiJpLTBmZjY5MDVmYWRiODMwZGU3Iiwic3AiOjE2OTAxNzQsInN0IjoxMTIxOTU0LCJ1ayI6ImFkMzJiODQxLWY4ZGYtNDk5Ny1hNjFmLWUzZThiZTA4NjQ2NSIsInpuIjoyNDEzNDgsInptIjpbMjQxMzQ4XSwidHMiOjE3ODQxNDc1NzA3MDUsInBuIjoic2VhcmNoLWluLWZlZWQiLCJnciI6dHJ1ZSwiZ2MiOnRydWUsImdDIjp0cnVlLCJncyI6Im5vbmUiLCJ0eiI6IkFtZXJpY2EvTmV3X1lvcmsiLCJ1ciI6Imh0dHBzOi8vdW5zcGxhc2guY29tL3N0dWRpbyJ9&s=x8S0OLimFf4AgXy-OfBcCiyKm2s
+                - contentinfo [ref=e220]:
+                  - generic [ref=e221]: On-brand and on budget images for your next campaign
+                  - generic [ref=e228]: Learn More
+              - figure [ref=e229]:
+                - link [ref=e232]:
+                  - /url: /fr/photos/pile-de-pulls-douillets-plies-aux-couleurs-neutres-05O5v_aBkO0
+                  - img "Pile de pulls douillets pliés aux couleurs neutres" [ref=e233]
+              - figure [ref=e234]:
+                - link [ref=e237]:
+                  - /url: /fr/photos/textile-marron-et-noir-sur-textile-noir-ZRcD8IxeXUw
+                  - img "Textile marron et noir sur textile noir" [ref=e238]
+              - figure [ref=e239]:
+                - link [ref=e242]:
+                  - /url: /fr/photos/trois-chemises-a-col-en-v-noir-gris-et-marron-sur-une-surface-noire-sgx6AIOB7Ak
+                  - img "trois chemises à col en V noir, gris et marron sur une surface noire" [ref=e243]
+              - figure [ref=e244]:
+                - link [ref=e247]:
+                  - /url: /fr/photos/personne-portant-une-chaussure-en-cuir-gris-LpW37NtkKU4
+                  - img "personne portant une chaussure en cuir gris" [ref=e248]
+              - figure [ref=e249]:
+                - link [ref=e252]:
+                  - /url: /fr/photos/jean-en-denim-bleu-sur-textile-blanc-t3rzRC30E_U
+                  - img "jean en denim bleu sur textile blanc" [ref=e253]
+              - figure [ref=e254]:
+                - link [ref=e257]:
+                  - /url: /fr/photos/une-serviette-avec-une-feuille-verte-sur-le-dessus-VM1tk2PQ5C0
+                  - img "une serviette avec une feuille verte sur le dessus" [ref=e258]
+              - figure [ref=e259]:
+                - link [ref=e262]:
+                  - /url: /fr/photos/textile-noir-et-blanc-sur-surface-blanche-9eH5WWklIak
+                  - img "Textile noir et blanc sur surface blanche" [ref=e263]
+              - figure [ref=e264]:
+                - link [ref=e267]:
+                  - /url: /fr/photos/textile-gris-et-marron-sur-textile-noir-7A--OiesCes
+                  - img "Textile gris et marron sur textile noir" [ref=e268]
+              - figure [ref=e269]:
+                - link [ref=e272]:
+                  - /url: /fr/photos/bonnet-en-tricot-orange-jlo7Bf4tUoY
+                  - img "bonnet en tricot orange" [ref=e273]
+          - generic [ref=e276]:
+            - heading "Parcourez des images premium sur iStock | Obtenez votre réduction dès maintenant" [level=2] [ref=e277]:
+              - text: Parcourez des images premium sur iStock
+              - generic [ref=e278]: "| Obtenez votre réduction dès maintenant"
+            - generic [ref=e280]:
+              - link [ref=e281] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/three-folded-monochrome-t-shirts-gray-black-and-white-isolated-over-gray-background-gm1313163932-401742013?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3Afad7c8a4-131a-4cca-a1ea-83674b9364ab
+                - img "Trois t-shirts monochromes pliés gris, noir et blanc d’isolement au-dessus du fond gris" [ref=e282]
+              - link [ref=e283] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/folded-mens-crew-neck-t-shirt-mockup-gm2115301019-567192971?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3Af49a9792-990d-4837-9548-ad7841a5e8c3
+                - img "Maquette de t-shirt à col rond pour homme plié." [ref=e284]
+              - link [ref=e285] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/man-searching-stacks-of-t-shirts-for-his-size-while-buying-clothes-in-a-shopping-mall-gm2228418690-644213882?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3A71bf3e0e-7144-4d50-9ada-cbcd13ad063e
+                - img "Homme cherchant des piles de t-shirts pour sa taille tout en achetant des vêtements dans un centre commercial." [ref=e286]
+              - link [ref=e287] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/neatly-folded-t-shirts-organized-by-color-and-size-on-retail-store-shelves-gm2267064266-679697694?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3A31d0d506-e85d-4085-8c4f-e86eee5f2a7f
+                - img "T-shirts soigneusement pliés organisés par couleur et taille sur les étagères des magasins" [ref=e288]
+              - link [ref=e289] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/folded-clothes-with-a-blank-tag-on-a-blue-background-gm2242815292-657091304?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3A54e818a4-77f1-419b-8b1b-030889fb6e9a
+                - img "Vêtements pliés avec une étiquette vierge sur fond bleu" [ref=e290]
+              - link [ref=e291] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/stacks-of-folded-clothes-on-white-background-gm1088065988-291901493?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3Aeab88c28-bbf4-4956-8b0b-f3a813fb6959
+                - img "Piles de vêtements pliés sur fond blanc" [ref=e292]
+              - link [ref=e293] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/stack-of-knitted-folded-clothes-on-table-knittings-pile-autumn-clothing-heap-woolen-gm2234629305-650041194?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3A8e2e6109-b5a7-4ff2-8d06-7a4265566afa
+                - img "Pile de vêtements pliés tricotés sur la table. Les tricots s’empilent. Tas de vêtements d’automne. Pulls en laine." [ref=e294]
+              - generic [ref=e295]:
+                - link [ref=e296] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/vertical-shot-of-a-stack-of-folded-clothes-gm1415539642-463871679?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3Ab9b6321f-0966-4628-84bb-8d86af9f936e
+                  - img "Plan vertical d’une pile de vêtements pliés." [ref=e297]
+                - link "Rendez-vous sur iStock ↗" [ref=e298] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-clothes-flat-lay-minimal&utm_term=folded+clothes+flat+lay+minimal%3A%3A%3A%3A8fa654d5-f4d4-4f96-9634-0dc94595e0f1&phrase=folded+clothes+flat+lay+minimal&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Plus de résultats" [ref=e302] [cursor=pointer]
+          - generic [ref=e303]:
+            - link [ref=e304] [cursor=pointer]:
+              - /url: /fr
+            - paragraph [ref=e307]: Créez quelque chose d’incroyable
+    - generic:
+      - region "Notifications"

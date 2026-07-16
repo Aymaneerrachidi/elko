@@ -1,0 +1,130 @@
+══════════════════════════════════════════════════════════════
+  ELKO — VIDEO PROMPTS
+  Generate these in a video tool (Runway, Kling, Pika, etc.)
+  Save each as the filename specified below in public/videos/
+══════════════════════════════════════════════════════════════
+
+
+────────────────────────────────────────────────────────────
+  1. HERO — Homepage Fullscreen Background
+     File: hero.mp4 | 16:9 | 5 sec | loop
+────────────────────────────────────────────────────────────
+Extreme close-up of folded premium knit fabric in navy, tan,
+and cream, resting on a matte white surface. Camera performs
+a slow, smooth dolly-in with a subtle rack focus from the
+fabric weave to an elastic waistband trim. Soft diffused
+studio light from the upper left, gentle shadow movement.
+Cinematic, minimal, luxury fashion editorial mood. No people,
+no text, no logos.
+
+
+────────────────────────────────────────────────────────────
+  2. PRODUCT PAGE — Fabric Macro Loop
+     File: product-page.mp4 | square (1:1) | 5 sec | loop
+────────────────────────────────────────────────────────────
+Macro shot of dark navy cotton-blend fabric folds under soft
+raking light, revealing fine woven texture. Camera holds
+static with a very slow, subtle push-in. Moody, low-key
+lighting, single soft key light from the side. No people,
+no text, no logos.
+
+
+────────────────────────────────────────────────────────────
+  3. CATEGORY TILE — Hover Video (template)
+     File: category-tile.mp4 | portrait 3:4 | 5 sec | loop
+────────────────────────────────────────────────────────────
+Use the same prompt template for all 4 categories below.
+Only the garment and color change.
+
+Template:
+"A folded [GARMENT], [COLOR], resting on a plain white
+surface in a softly lit studio setting. Camera performs a
+slow 20-degree orbit, revealing fabric texture and stitching
+detail. Clean, minimal, premium product photography style.
+No people, no hands, no text, no logos."
+
+  3a. Boxer Briefs   — "folded boxer briefs, charcoal grey"
+  3b. Trunks         — "folded trunks, navy"
+  3c. Undershirts    — "folded crew-neck undershirt, white"
+  3d. Performance    — "folded performance short, black with grey trim"
+
+NOTE: If your tool generates one video per prompt, save
+each under the name listed above in the implementation
+column. Currently all 4 categories share one file
+(category-tile.mp4). For individual videos, generate 4
+separate files.
+
+
+────────────────────────────────────────────────────────────
+  4. FEATURED COLLECTION — Hero Card Background (BIGGEST UPGRADE)
+     File: featured-hero.mp4 | 16:9 | 6–8 sec | loop
+────────────────────────────────────────────────────────────
+Softly diffused morning light through sheer linen curtains,
+falling across a neatly folded stack of charcoal and navy
+everyday essentials on a raw oak surface. Camera performs
+an ultra-slow horizontal tracking dolly at 2cm/s, passing
+over the folded stack with subtle parallax. Still-life
+composition, warm 3200K color temperature, shallow depth of
+field with the foreground fabric in sharp focus and the
+background curtain blurring into bokeh. Cinematic, quiet
+luxury editorial mood. No people, no text, no logos.
+
+
+────────────────────────────────────────────────────────────
+  5. FABRIC SECTION — Macro Texture Background
+     File: fabric-macro.mp4 | square (1:1) | 6 sec | loop
+────────────────────────────────────────────────────────────
+Extreme macro close-up of premium cotton-modal blend fabric
+being slowly stretched and released under warm raking light.
+The weave opens and contracts in slow motion, revealing the
+criss-cross thread structure. Micro-fibers catch the light
+with a soft glow. Shallow depth of field, focus pulls from
+the foreground thread to the mid-ground weave in a slow
+3-second rack focus. Moody dark background, single warm key
+light from upper left. No people, no text, no logos.
+
+
+────────────────────────────────────────────────────────────
+  6. NEWSLETTER CTA — Ambient Background
+     File: newsletter-bg.mp4 | 16:9 | 8 sec | loop
+────────────────────────────────────────────────────────────
+Ultra close-up of cream cotton knit fabric resting on a
+white surface. Camera holds static as a gentle breeze from
+an unseen source causes the fabric surface to micro-undulate
+in slow motion, creating subtle light-and-shadow shifts
+across the knit texture. Overhead flat lay perspective,
+bright diffused studio lighting with shadowless fill. Clean,
+minimal, meditative. No people, no text, no logos.
+
+
+────────────────────────────────────────────────────────────
+  7. BESTSELLERS — Product Card Hover Video (optional polish)
+     File: product-hover.mp4 | square (1:1) | 4 sec | loop
+────────────────────────────────────────────────────────────
+Three individually folded boxer briefs in black, charcoal,
+and navy arranged in a staggered row on a matte white
+surface. Camera performs a slow 15-degree orbit descending
+from a 45-degree overhead angle to a 30-degree angle,
+revealing the layered stack and waistband trims. Clean
+studio lighting, soft shadows, minimal. No people, no text,
+no logos.
+
+
+══════════════════════════════════════════════════════════════
+  IMPLEMENTATION PRIORITY
+══════════════════════════════════════════════════════════════
+
+Already implemented:
+  hero.mp4              → Hero.tsx (background with fade-in)
+  product-page.mp4      → ProductGallery.tsx (gallery video)
+  category-tile.mp4     → ShopByCategory.tsx (hover video, 4 cats)
+
+Generate and implement next (ranked by visual impact):
+  1. featured-hero.mp4  → FeaturedCollection.tsx (hero card)
+  2. fabric-macro.mp4   → FabricSection.tsx (left panel)
+  3. newsletter-bg.mp4  → NewsletterCTA.tsx (background)
+  4. product-hover.mp4  → ProductCard.tsx (optional hover)
+
+When you have the files ready, let me know and I'll implement
+them immediately.
+══════════════════════════════════════════════════════════════

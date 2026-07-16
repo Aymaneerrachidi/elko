@@ -1,0 +1,248 @@
+- generic [ref=f17e4]:
+  - navigation [ref=f17e5]:
+    - generic [ref=f17e6]:
+      - generic [ref=f17e7]:
+        - link "Accueil Unsplash" [ref=f17e8] [cursor=pointer]:
+          - /url: /fr
+          - img "Accueil Unsplash" [ref=f17e9]
+        - link "Photos" [ref=f17e11] [cursor=pointer]:
+          - /url: /fr
+        - link "Illustrations" [ref=f17e14] [cursor=pointer]:
+          - /url: /fr/illustrations
+      - generic [ref=f17e17]:
+        - button "Explorer" [ref=f17e18] [cursor=pointer]
+        - button "Collections" [ref=f17e21] [cursor=pointer]
+        - button "Historique de téléchargement" [ref=f17e24] [cursor=pointer]
+      - button "Favoris" [ref=f17e28] [cursor=pointer]
+    - generic [ref=f17e31]:
+      - link "Connexion / S’inscrire" [ref=f17e32] [cursor=pointer]:
+        - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture
+      - button "Langue" [ref=f17e35] [cursor=pointer]
+      - button "Menu" [ref=f17e38] [cursor=pointer]
+  - generic [ref=f17e41]:
+    - generic [ref=f17e42]:
+      - navigation [ref=f17e43]:
+        - search "Rechercher des visuels sur tout le site" [ref=f17e45]:
+          - button "Rechercher sur Unsplash" [ref=f17e46] [cursor=pointer]
+          - combobox [ref=f17e49]:
+            - searchbox "Rechercher sur Unsplash" [ref=f17e50]: folded cotton fabric texture
+            - listbox
+          - button "Effacer" [ref=f17e51] [cursor=pointer]
+          - button "Recherche de visuels" [ref=f17e56] [cursor=pointer]
+        - generic [ref=f17e59]:
+          - link "Abonnez-vous à Unsplash+" [ref=f17e60] [cursor=pointer]:
+            - /url: /fr/plus
+          - link "Se connecter" [ref=f17e61] [cursor=pointer]:
+            - /url: /fr/connexion?referrer=%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture
+        - button "Soumettre une image" [ref=f17e63] [cursor=pointer]
+      - generic [ref=f17e64]:
+        - generic [ref=f17e70]:
+          - list [ref=f17e71]:
+            - listitem [ref=f17e72]:
+              - link "Photos 6,4 k":
+                - /url: /fr/s/photos/folded-cotton-fabric-texture
+                - text: Photos
+                - generic: 6,4 k
+            - listitem [ref=f17e73]:
+              - link "Illustrations 48" [ref=f17e74] [cursor=pointer]:
+                - /url: /fr/s/illustrations/folded-cotton-fabric-texture
+                - text: Illustrations
+                - generic [ref=f17e77]: "48"
+            - listitem [ref=f17e78]:
+              - button "Plus" [ref=f17e79] [cursor=pointer]
+          - generic [ref=f17e82]:
+            - button "Licence" [ref=f17e83] [cursor=pointer]
+            - button "Orientation" [ref=f17e89] [cursor=pointer]
+            - button "Classer par Pertinence" [ref=f17e95] [cursor=pointer]
+        - generic [ref=f17e101]:
+          - heading "Folded cotton fabric texture" [level=1] [ref=f17e103]
+          - generic [ref=f17e105]:
+            - button "faire défiler la liste vers la droite" [ref=f17e107] [cursor=pointer]
+            - generic [ref=f17e111]:
+              - link "texture" [ref=f17e113] [cursor=pointer]:
+                - /url: /fr/s/photos/texture
+              - link "arrière-plan" [ref=f17e115] [cursor=pointer]:
+                - /url: /fr/s/photos/arri%C3%A8re--plan
+              - link "papier" [ref=f17e117] [cursor=pointer]:
+                - /url: /fr/s/photos/papier
+              - link "gri" [ref=f17e119] [cursor=pointer]:
+                - /url: /fr/s/photos/gri
+              - link "tissu" [ref=f17e121] [cursor=pointer]:
+                - /url: /fr/s/photos/tissu
+              - link "textile" [ref=f17e123] [cursor=pointer]:
+                - /url: /fr/s/photos/textile
+              - link "fond de papier" [ref=f17e125] [cursor=pointer]:
+                - /url: /fr/s/photos/fond-de-papier
+              - link "modèle" [ref=f17e127] [cursor=pointer]:
+                - /url: /fr/s/photos/mod%C3%A8le
+              - link "matériel" [ref=f17e129] [cursor=pointer]:
+                - /url: /fr/s/photos/mat%C3%A9riel
+              - link "tissu blanc" [ref=f17e131] [cursor=pointer]:
+                - /url: /fr/s/photos/tissu-blanc
+              - link "fond abstrait" [ref=f17e133] [cursor=pointer]:
+                - /url: /fr/s/photos/fond-abstrait
+              - link "texture du tissu" [ref=f17e135] [cursor=pointer]:
+                - /url: /fr/s/photos/texture-du-tissu
+        - generic [ref=f17e137]:
+          - generic [ref=f17e141]:
+            - generic [ref=f17e142]:
+              - figure [ref=f17e143]:
+                - generic [ref=f17e145]:
+                  - link [ref=f17e146]:
+                    - /url: /fr/photos/un-gros-plan-dun-lit-avec-des-draps-blancs-vZke0fzGOOQ
+                    - img "un gros plan d’un lit avec des draps blancs" [ref=f17e147]
+                  - link [ref=f17e148] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fun-gros-plan-dun-lit-avec-des-draps-blancs-vZke0fzGOOQ
+              - generic [ref=f17e151]:
+                - heading "Images sponsorisées" [level=4] [ref=f17e152]:
+                  - link [ref=f17e154] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3A83246d26-97ba-4cc1-a849-dd304477236e&phrase=folded+cotton+fabric+texture&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                - generic [ref=f17e157]:
+                  - link [ref=f17e158] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/white-cotton-jersey-fabric-texture-gm1164196382-319931295?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3Acd6602c1-b026-4cbf-a8f2-446fcbecb922
+                    - img "Texture de tissu en jersey de coton blanc" [ref=f17e159]
+                  - link [ref=f17e160] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/texture-of-blank-white-crumpled-papers-gm2222113898-638410523?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3A6e94e380-e783-40ce-9147-c2d37d2a94a6
+                    - img "Texture des papiers blancs froissés vierges" [ref=f17e161]
+                  - link [ref=f17e162] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/wrinkled-fabric-background-gm1962521036-557920251?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3A4f117b65-1e75-4eb3-8024-68a5ced637ba
+                    - img "Fond de tissu à cimier" [ref=f17e163]
+                  - link [ref=f17e164] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/abstract-white-fabric-soft-wave-smooth-texture-surface-background-gm2224415030-640521856?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3Ad2177a23-30d8-4c80-b48e-8e4264af13db
+                    - img "Abstrait tissu blanc doux vague lisse texture fond de surface" [ref=f17e165]
+                - link "Économisez 20 % avec le code UNSPLASH20" [ref=f17e166] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3A83246d26-97ba-4cc1-a849-dd304477236e&phrase=folded+cotton+fabric+texture&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=f17e167]:
+                - link [ref=f17e170]:
+                  - /url: /fr/photos/textile-blanc-sur-table-en-bois-marron-B99QPn0T_7Q
+                  - img "textile blanc sur table en bois marron" [ref=f17e171]
+              - figure [ref=f17e172]:
+                - link [ref=f17e175]:
+                  - /url: /fr/photos/textile-blanc-sur-table-en-bois-marron-3GwOfh-VMgQ
+                  - img "textile blanc sur table en bois marron" [ref=f17e176]
+              - figure [ref=f17e177]:
+                - link [ref=f17e180]:
+                  - /url: /fr/photos/lin-gris-FseXc3OsIic
+                  - img "lin gris" [ref=f17e181]
+              - figure [ref=f17e182]:
+                - link [ref=f17e185]:
+                  - /url: /fr/photos/textile-blanc-en-photographie-en-gros-plan-SpIg9HoZjPE
+                  - img "textile blanc en photographie en gros plan" [ref=f17e186]
+            - generic [ref=f17e187]:
+              - figure [ref=f17e188]:
+                - link [ref=f17e191]:
+                  - /url: /fr/photos/textile-brun-en-gros-plan-epgqiRNfNHw
+                  - img "textile brun en gros plan" [ref=f17e192]
+              - figure [ref=f17e193]:
+                - link [ref=f17e196]:
+                  - /url: /fr/photos/un-tissu-bleu-clair-texture-avec-un-motif-diagonal-VYeNQq9SnnE
+                  - img "un tissu bleu clair texturé avec un motif diagonal" [ref=f17e197]
+              - figure [ref=f17e198]:
+                - link [ref=f17e201]:
+                  - /url: /fr/photos/un-gros-plan-dun-tricot-blanc-YouWp12gBCQ
+                  - img "un gros plan d’un tricot blanc" [ref=f17e202]
+              - figure [ref=f17e203]:
+                - generic [ref=f17e205]:
+                  - link [ref=f17e206]:
+                    - /url: /fr/photos/gros-plan-dune-surface-blanche-PwP3z2_9GUg
+                    - img "gros plan d’une surface blanche" [ref=f17e207]
+                  - link [ref=f17e208] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fgros-plan-dune-surface-blanche-PwP3z2_9GUg
+              - figure [ref=f17e211]:
+                - link [ref=f17e214]:
+                  - /url: /fr/photos/textile-en-maille-rouge-et-noir-XwbjSiUpdOI
+                  - img "textile en maille rouge et noir" [ref=f17e215]
+              - figure [ref=f17e216]:
+                - link [ref=f17e219]:
+                  - /url: /fr/photos/textile-brun-en-photographie-rapprochee-74OIBwS8cN0
+                  - img "Textile brun en photographie rapprochée" [ref=f17e220]
+              - figure [ref=f17e221]:
+                - generic [ref=f17e223]:
+                  - link [ref=f17e224]:
+                    - /url: /fr/photos/une-photo-en-noir-et-blanc-dun-avion-dans-le-ciel-_R3RhudtXUg
+                    - img "une photo en noir et blanc d’un avion dans le ciel" [ref=f17e225]
+                  - link [ref=f17e226] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fune-photo-en-noir-et-blanc-dun-avion-dans-le-ciel-_R3RhudtXUg
+              - figure [ref=f17e229]:
+                - link [ref=f17e232]:
+                  - /url: /fr/photos/textile-blanc-avec-des-cheveux-bruns-89LwbiYv7SE
+                  - img "textile blanc avec des cheveux bruns" [ref=f17e233]
+            - generic [ref=f17e234]:
+              - link "Take your designs to the next level. Learn more" [ref=f17e237] [cursor=pointer]:
+                - /url: https://e-10457.adzerk.net/r?e=eyJ2IjoiMS4xNCIsImF2IjoyNzk4NDkyLCJhdCI6NSwiYnQiOjAsImNtIjoyOTk1NjUxMTIsImNoIjo0NTE2MywiY2siOnt9LCJjciI6OTE3OTgxODI5LCJkaSI6IjNjN2Y2ZDYxYjQ5NTRjNmE4ODBiNTU5ZjdiNTA1NzkxIiwiZGoiOjAsImlpIjoiODQxNGEwYTlkOTE0NGRmN2E1MWQzNGZmNDJhNmI4MDYiLCJkbSI6MywiZmMiOjEwOTQwOTM1NTIsImZsIjo4NjMzOTQ3MDUsImlwIjoiNDEuMjQ4LjE2Mi4yMyIsIm53IjoxMDQ1NywicGMiOjQsIm9wIjo0LCJtcCI6NCwiZWMiOjQsImdtIjowLCJlcCI6bnVsbCwicHIiOjIyMzY2MCwicnQiOjIsInJzIjo1MDAsInNhIjoiOTYiLCJzYiI6ImktMDQyZDBhYTAyZmE5Nzk4ODUiLCJzcCI6MTI0OTc1MCwic3QiOjExMjE5NTQsInVrIjoiYWQzMmI4NDEtZjhkZi00OTk3LWE2MWYtZTNlOGJlMDg2NDY1Iiwiem4iOjI0MTM0OCwiem0iOlsyNDEzNDhdLCJ0cyI6MTc4NDE0NTk4NzEyMCwicG4iOiJzZWFyY2gtaW4tZmVlZCIsImdyIjp0cnVlLCJnYyI6dHJ1ZSwiZ0MiOnRydWUsImdzIjoibm9uZSIsInR6IjoiQW1lcmljYS9OZXdfWW9yayIsInVyIjoiaHR0cHM6Ly93d3cua2l0dGwuY29tL2Rpc2NvdmVyL2FpIn0&s=0nsuj-WGqmjDybvSBti1UdSDF2Y
+                - contentinfo [ref=f17e241]:
+                  - generic [ref=f17e242]: Take your designs to the next level.
+                  - generic [ref=f17e249]: Learn more
+              - figure [ref=f17e250]:
+                - link [ref=f17e253]:
+                  - /url: /fr/photos/textile-tricote-marron-et-noir-Xag89-CFc0s
+                  - img "textile tricoté marron et noir" [ref=f17e254]
+              - figure [ref=f17e255]:
+                - generic [ref=f17e257]:
+                  - link [ref=f17e258]:
+                    - /url: /fr/photos/gros-plan-dune-texture-de-tissu-blanc-qiaXdEdpmLY
+                    - img "Gros plan d’une texture de tissu blanc" [ref=f17e259]
+                  - link [ref=f17e260] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fgros-plan-dune-texture-de-tissu-blanc-qiaXdEdpmLY
+              - figure [ref=f17e263]:
+                - link [ref=f17e266]:
+                  - /url: /fr/photos/gros-plan-dun-tissu-gris-avec-un-arriere-plan-flou-m39MFlgg-nY
+                  - img "Gros plan d’un tissu gris avec un arrière-plan flou" [ref=f17e267]
+              - figure [ref=f17e268]:
+                - link [ref=f17e271]:
+                  - /url: /fr/photos/gros-plan-dun-arriere-plan-texture-sur-papier-blanc-U2j1u4BWrpM
+                  - img "Gros plan d’un arrière-plan texturé sur papier blanc" [ref=f17e272]
+              - figure [ref=f17e273]:
+                - generic [ref=f17e275]:
+                  - link [ref=f17e276]:
+                    - /url: /fr/photos/une-nappe-blanche-avec-un-lisere-noir-ooofMLDRWyo
+                    - img "Une nappe blanche avec un liseré noir" [ref=f17e277]
+                  - link [ref=f17e278] [cursor=pointer]:
+                    - /url: /fr/plus?referrer=%2Ffr%2Fphotos%2Fune-nappe-blanche-avec-un-lisere-noir-ooofMLDRWyo
+              - figure [ref=f17e281]:
+                - link [ref=f17e284]:
+                  - /url: /fr/photos/textile-marron-sur-table-en-bois-marron-lyoj9dr6aD0
+                  - img "textile marron sur table en bois marron" [ref=f17e285]
+              - figure [ref=f17e286]:
+                - link [ref=f17e289]:
+                  - /url: /fr/photos/serviettes-de-bain-vertes-et-bleues-c6D1r0ail8o
+                  - img "serviettes de bain vertes et bleues" [ref=f17e290]
+          - generic [ref=f17e293]:
+            - heading "Parcourez des images premium sur iStock | Obtenez votre réduction dès maintenant" [level=2] [ref=f17e294]:
+              - text: Parcourez des images premium sur iStock
+              - generic [ref=f17e295]: "| Obtenez votre réduction dès maintenant"
+            - generic [ref=f17e297]:
+              - link [ref=f17e298] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/textured-folds-of-fabric-in-white-color-gm2250098896-663819418?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3Af5bb0f83-1d1f-4172-b783-075011fad46e
+                - img "Plis texturés de tissu de couleur blanche" [ref=f17e299]
+              - link [ref=f17e300] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/wrinkled-textile-fabric-gm1328838799-412772462?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3Ac53ed96a-2c6e-4e2d-a3fc-d1e0d69dd02e
+                - img "Tissu textile ridé" [ref=f17e301]
+              - link [ref=f17e302] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/hessian-sackcloth-woven-fabric-texture-background-in-beige-cream-brown-color-gm955863848-260975954?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3A624198d4-9be3-4d45-a01b-f845ab001fe7
+                - img "Un sac hessien tissé fond texture tissu beige couleur brun crème" [ref=f17e303]
+              - link [ref=f17e304] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/crumpled-ivory-woven-cotton-texture-wrinkled-textured-light-beige-fabric-with-copy-gm2265126818-677830998?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3Ae298a9dd-6a7b-4df5-afcb-deb8a88cb3c6
+                - img "Texture de coton tissé ivoire froissé, tissu beige clair plissé avec de l’espace pour copier" [ref=f17e305]
+              - link [ref=f17e306] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/aesthetic-natural-textile-background-with-abstract-sunlight-shadow-neutral-beige-gm1489057994-514058100?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3A22e64b4d-f6fb-43a8-9c1b-323097858105
+                - img "Fond textile naturel esthétique avec ombre abstraite de la lumière du soleil, tissu drapé de lin beige neutre, espace de copie" [ref=f17e307]
+              - link [ref=f17e308] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/white-canvas-background-gm507723927-44980190?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3A9e2ee082-3179-4afd-9532-241def0f0f47
+                - img "Blanc en toile de fond." [ref=f17e309]
+              - link [ref=f17e310] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/a-close-up-of-white-fabric-forming-a-background-gm91762510-9196483?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3A1764ce5a-87e0-4193-9be3-9835686cb73e
+                - img "Tissu blanc détail" [ref=f17e311]
+              - generic [ref=f17e312]:
+                - link [ref=f17e313] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/wrinkled-fabric-background-gm2161827039-582246884?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3Ac7e0b2c3-bf00-48f5-876a-b2f91bf488bf
+                  - img "Fond de tissu froissé." [ref=f17e314]
+                - link "Rendez-vous sur iStock ↗" [ref=f17e315] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Ffr%2Fs%2Fphotos%2Ffolded-cotton-fabric-texture&utm_term=folded+cotton+fabric+texture%3A%3A%3A%3Ab799cb63-419d-4830-ba7a-776d5688e9e1&phrase=folded+cotton+fabric+texture&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Plus de résultats" [ref=f17e319] [cursor=pointer]
+          - generic [ref=f17e320]:
+            - link [ref=f17e321] [cursor=pointer]:
+              - /url: /fr
+            - paragraph [ref=f17e324]: Créez quelque chose d’incroyable
+    - generic:
+      - region "Notifications"

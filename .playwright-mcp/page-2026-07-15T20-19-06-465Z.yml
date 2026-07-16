@@ -1,0 +1,473 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: Free Shipping on Orders Over $50
+    - generic [ref=e7]: 365-Day Quality Guarantee
+    - generic [ref=e9]: "Get 15% Off Your First Order — Code: ELKO15"
+    - generic [ref=e11]: Free Shipping on Orders Over $50
+    - generic [ref=e13]: 365-Day Quality Guarantee
+    - generic [ref=e15]: "Get 15% Off Your First Order — Code: ELKO15"
+  - banner [ref=e17]:
+    - generic [ref=e19]:
+      - link "ELKO" [ref=e20] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e21]:
+        - link "Shop" [ref=e23] [cursor=pointer]:
+          - /url: /shop
+        - link "New Arrivals" [ref=e26] [cursor=pointer]:
+          - /url: /shop?badge=new
+        - link "Best Sellers" [ref=e27] [cursor=pointer]:
+          - /url: /shop?badge=best-seller
+        - link "Collections" [ref=e28] [cursor=pointer]:
+          - /url: /collections
+        - link "About" [ref=e29] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e30] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e31]:
+        - button "Search" [ref=e32] [cursor=pointer]
+        - link "Wishlist" [ref=e36] [cursor=pointer]:
+          - /url: /wishlist
+        - link "Account" [ref=e39] [cursor=pointer]:
+          - /url: /account
+        - button "Shopping bag, 0 items" [ref=e43] [cursor=pointer]
+  - main [ref=e47]:
+    - generic [ref=e48]:
+      - img "Male model wearing ELKO premium underwear" [ref=e50]
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: THE EVERYDAY ESSENTIALS COLLECTION
+        - heading "Engineered for Comfort. Designed for Confidence." [level=1] [ref=e55]: Engineered for Comfort.Designed for Confidence.
+        - paragraph [ref=e56]: Premium everyday essentials crafted with the softest fabrics.
+        - generic [ref=e57]:
+          - link [ref=e58] [cursor=pointer]:
+            - /url: /shop
+          - link [ref=e63] [cursor=pointer]:
+            - /url: /collections
+      - generic [ref=e68]: SCROLL
+    - generic [ref=e72]:
+      - generic [ref=e73]: Free Shipping
+      - generic [ref=e80]: Easy Returns
+      - generic [ref=e87]: Premium Fabrics
+      - generic [ref=e92]: 365-Day Guarantee
+      - generic [ref=e97]: Secure Checkout
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - heading "Shop by Category" [level=2] [ref=e104]
+        - paragraph [ref=e105]: "Eight fits, one standard: it should disappear against your skin by 9am."
+      - generic [ref=e106]:
+        - link "Boxer Briefs Boxer Briefs Shop Now →" [ref=e108] [cursor=pointer]:
+          - /url: /shop?category=Boxer%20Briefs
+          - img "Boxer Briefs" [ref=e109]
+          - generic [ref=e111]:
+            - paragraph [ref=e112]: Boxer Briefs
+            - generic [ref=e113]: Shop Now →
+        - link "Briefs Briefs Shop Now →" [ref=e115] [cursor=pointer]:
+          - /url: /shop?category=Briefs
+          - img "Briefs" [ref=e116]
+          - generic [ref=e118]:
+            - paragraph [ref=e119]: Briefs
+            - generic [ref=e120]: Shop Now →
+        - link "Trunks Trunks Shop Now →" [ref=e122] [cursor=pointer]:
+          - /url: /shop?category=Trunks
+          - img "Trunks" [ref=e123]
+          - generic [ref=e125]:
+            - paragraph [ref=e126]: Trunks
+            - generic [ref=e127]: Shop Now →
+        - link "Boxers Boxers Shop Now →" [ref=e129] [cursor=pointer]:
+          - /url: /shop?category=Boxers
+          - img "Boxers" [ref=e130]
+          - generic [ref=e132]:
+            - paragraph [ref=e133]: Boxers
+            - generic [ref=e134]: Shop Now →
+        - link "Undershirts Undershirts Shop Now →" [ref=e136] [cursor=pointer]:
+          - /url: /shop?category=Undershirts
+          - img "Undershirts" [ref=e137]
+          - generic [ref=e139]:
+            - paragraph [ref=e140]: Undershirts
+            - generic [ref=e141]: Shop Now →
+        - link "Multipacks Multipacks Shop Now →" [ref=e143] [cursor=pointer]:
+          - /url: /shop?category=Multipacks
+          - img "Multipacks" [ref=e144]
+          - generic [ref=e146]:
+            - paragraph [ref=e147]: Multipacks
+            - generic [ref=e148]: Shop Now →
+        - link "Performance Performance Shop Now →" [ref=e150] [cursor=pointer]:
+          - /url: /shop?category=Performance
+          - img "Performance" [ref=e151]
+          - generic [ref=e153]:
+            - paragraph [ref=e154]: Performance
+            - generic [ref=e155]: Shop Now →
+        - link "Tank Tops Tank Tops Shop Now →" [ref=e157] [cursor=pointer]:
+          - /url: /shop?category=Tank%20Tops
+          - img "Tank Tops" [ref=e158]
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: Tank Tops
+            - generic [ref=e162]: Shop Now →
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - heading "Featured Collections" [level=2] [ref=e166]
+        - paragraph [ref=e167]: Five ways to build a drawer that works — from everyday basics to modal-soft luxury.
+      - generic [ref=e168]:
+        - link "New Collection New Collection Fresh drops, engineered with our latest fabric technology. DISCOVER →" [ref=e170] [cursor=pointer]:
+          - /url: /collections/new-collection
+          - img "New Collection" [ref=e171]
+          - generic [ref=e173]:
+            - paragraph [ref=e174]: New Collection
+            - paragraph [ref=e175]: Fresh drops, engineered with our latest fabric technology.
+            - generic [ref=e176]:
+              - text: DISCOVER
+              - generic [ref=e177]: →
+        - link "Summer Collection Summer Collection Lightweight, breathable essentials built for the heat. DISCOVER →" [ref=e179] [cursor=pointer]:
+          - /url: /collections/summer-collection
+          - img "Summer Collection" [ref=e180]
+          - generic [ref=e182]:
+            - paragraph [ref=e183]: Summer Collection
+            - paragraph [ref=e184]: Lightweight, breathable essentials built for the heat.
+            - generic [ref=e185]:
+              - text: DISCOVER
+              - generic [ref=e186]: →
+        - link "Everyday Collection Everyday Collection The foundation of your drawer. Reliable comfort, every day. DISCOVER →" [ref=e188] [cursor=pointer]:
+          - /url: /collections/everyday-collection
+          - img "Everyday Collection" [ref=e189]
+          - generic [ref=e191]:
+            - paragraph [ref=e192]: Everyday Collection
+            - paragraph [ref=e193]: The foundation of your drawer. Reliable comfort, every day.
+            - generic [ref=e194]:
+              - text: DISCOVER
+              - generic [ref=e195]: →
+        - link "Performance Collection Performance Collection Moisture-wicking, 4-way stretch fabrics for active days. DISCOVER →" [ref=e197] [cursor=pointer]:
+          - /url: /collections/performance-collection
+          - img "Performance Collection" [ref=e198]
+          - generic [ref=e200]:
+            - paragraph [ref=e201]: Performance Collection
+            - paragraph [ref=e202]: Moisture-wicking, 4-way stretch fabrics for active days.
+            - generic [ref=e203]:
+              - text: DISCOVER
+              - generic [ref=e204]: →
+        - link "Luxury Modal Collection Luxury Modal Collection Ultra-soft modal and bamboo fibers for elevated comfort. DISCOVER →" [ref=e206] [cursor=pointer]:
+          - /url: /collections/luxury-modal-collection
+          - img "Luxury Modal Collection" [ref=e207]
+          - generic [ref=e209]:
+            - paragraph [ref=e210]: Luxury Modal Collection
+            - paragraph [ref=e211]: Ultra-soft modal and bamboo fibers for elevated comfort.
+            - generic [ref=e212]:
+              - text: DISCOVER
+              - generic [ref=e213]: →
+    - generic [ref=e214]:
+      - generic [ref=e215]:
+        - heading "The four pairs men reorder without thinking twice." [level=2] [ref=e216]
+        - generic [ref=e217]:
+          - paragraph [ref=e218]: 4.9★ average across 1,200+ reviews
+          - link "View All" [ref=e219] [cursor=pointer]:
+            - /url: /shop?badge=best-seller
+      - generic [ref=e220]:
+        - generic [ref=e222]:
+          - generic [ref=e224]:
+            - link [ref=e225] [cursor=pointer]:
+              - /url: /product/essential-boxer-brief-black
+              - img "Essential Boxer Brief" [ref=e226]
+            - generic [ref=e228]: BEST SELLER
+            - button "Add to wishlist" [ref=e230] [cursor=pointer]
+            - button "Quick view" [ref=e233] [cursor=pointer]
+            - button "QUICK ADD" [ref=e238] [cursor=pointer]
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - generic "Rated 4.8 out of 5" [ref=e241]
+              - generic [ref=e252]: (1284)
+            - link [ref=e253] [cursor=pointer]:
+              - /url: /product/essential-boxer-brief-black
+              - heading "Essential Boxer Brief" [level=3] [ref=e254]
+            - paragraph [ref=e255]: Premium Cotton
+            - generic [ref=e256]:
+              - generic [ref=e257]: $32.00
+              - generic [ref=e258]: $42.00
+            - generic [ref=e259]:
+              - generic "Black" [ref=e260]
+              - generic "Charcoal" [ref=e261]
+              - generic "Navy" [ref=e262]
+        - generic [ref=e264]:
+          - generic [ref=e266]:
+            - link [ref=e267] [cursor=pointer]:
+              - /url: /product/premium-modal-trunk
+              - img "Premium Modal Trunk" [ref=e268]
+            - generic [ref=e270]: NEW
+            - button "Add to wishlist" [ref=e272] [cursor=pointer]
+            - button "Quick view" [ref=e275] [cursor=pointer]
+            - button "QUICK ADD" [ref=e280] [cursor=pointer]
+          - generic [ref=e281]:
+            - generic [ref=e282]:
+              - generic "Rated 4.9 out of 5" [ref=e283]
+              - generic [ref=e294]: (632)
+            - link [ref=e295] [cursor=pointer]:
+              - /url: /product/premium-modal-trunk
+              - heading "Premium Modal Trunk" [level=3] [ref=e296]
+            - paragraph [ref=e297]: Modal
+            - generic [ref=e298]: $38.00
+            - generic [ref=e300]:
+              - generic "Onyx" [ref=e301]
+              - generic "Stone" [ref=e302]
+              - generic "Deep Green" [ref=e303]
+        - generic [ref=e305]:
+          - generic [ref=e307]:
+            - link [ref=e308] [cursor=pointer]:
+              - /url: /product/cotton-brief-white
+              - img "Cotton Brief" [ref=e309]
+            - button "Add to wishlist" [ref=e311] [cursor=pointer]
+            - button "Quick view" [ref=e314] [cursor=pointer]
+            - button "QUICK ADD" [ref=e319] [cursor=pointer]
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - generic "Rated 4.6 out of 5" [ref=e322]
+              - generic [ref=e333]: (891)
+            - link [ref=e334] [cursor=pointer]:
+              - /url: /product/cotton-brief-white
+              - heading "Cotton Brief" [level=3] [ref=e335]
+            - paragraph [ref=e336]: Premium Cotton
+            - generic [ref=e337]: $26.00
+            - generic [ref=e339]:
+              - generic "White" [ref=e340]
+              - generic "Black" [ref=e341]
+              - generic "Grey Marl" [ref=e342]
+        - generic [ref=e344]:
+          - generic [ref=e346]:
+            - link [ref=e347] [cursor=pointer]:
+              - /url: /product/performance-boxer
+              - img "Performance Boxer" [ref=e348]
+            - generic [ref=e350]:
+              - generic [ref=e351]: BEST SELLER
+              - generic [ref=e352]: "-23%"
+            - button "Add to wishlist" [ref=e353] [cursor=pointer]
+            - button "Quick view" [ref=e356] [cursor=pointer]
+            - button "QUICK ADD" [ref=e361] [cursor=pointer]
+          - generic [ref=e362]:
+            - generic [ref=e363]:
+              - generic "Rated 4.7 out of 5" [ref=e364]
+              - generic [ref=e375]: (445)
+            - link [ref=e376] [cursor=pointer]:
+              - /url: /product/performance-boxer
+              - heading "Performance Boxer" [level=3] [ref=e377]
+            - paragraph [ref=e378]: Performance Mesh
+            - generic [ref=e379]:
+              - generic [ref=e380]: $34.00
+              - generic [ref=e381]: $44.00
+            - generic [ref=e382]:
+              - generic "Jet Black" [ref=e383]
+              - generic "Steel" [ref=e384]
+    - generic [ref=e386]:
+      - img "Close-up of premium fabric weave" [ref=e388]
+      - generic [ref=e389]:
+        - heading "Fabric, Perfected." [level=2] [ref=e390]
+        - paragraph [ref=e391]: "Every ELKO piece begins with fabric sourced for one purpose: to disappear against your skin. We test each blend for stretch recovery, breathability, and longevity before it ever reaches production."
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - paragraph [ref=e397]: 95% Premium Cotton
+            - paragraph [ref=e398]: Combed for a soft, durable hand feel.
+          - generic [ref=e399]:
+            - paragraph [ref=e403]: Modal & Bamboo
+            - paragraph [ref=e404]: Silk-like softness, naturally sourced.
+          - generic [ref=e405]:
+            - paragraph [ref=e410]: Moisture Wicking
+            - paragraph [ref=e411]: Stays dry through your most active days.
+          - generic [ref=e412]:
+            - paragraph [ref=e416]: Breathable
+            - paragraph [ref=e417]: Engineered airflow, all-day freshness.
+          - generic [ref=e418]:
+            - paragraph [ref=e423]: Anti-Odor
+            - paragraph [ref=e424]: Antimicrobial finish, fewer washes needed.
+          - generic [ref=e425]:
+            - paragraph [ref=e429]: Tagless Comfort
+            - paragraph [ref=e430]: No scratchy labels, ever.
+    - generic [ref=e431]:
+      - generic [ref=e432]:
+        - heading "Why ELKO" [level=2] [ref=e433]
+        - paragraph [ref=e434]: We obsess over the details you never see so the fit you feel is effortless.
+      - generic [ref=e435]:
+        - generic [ref=e441]:
+          - paragraph [ref=e442]: Luxury Comfort
+          - paragraph [ref=e443]: Every detail engineered for all-day wear.
+        - generic [ref=e452]:
+          - paragraph [ref=e453]: Premium Stitching
+          - paragraph [ref=e454]: Reinforced flat-lock seams that last.
+        - generic [ref=e461]:
+          - paragraph [ref=e462]: Elastic Waistband
+          - paragraph [ref=e463]: No roll, no dig, no compromise.
+        - generic [ref=e470]:
+          - paragraph [ref=e471]: Breathable
+          - paragraph [ref=e472]: Engineered airflow keeps you cool.
+        - generic [ref=e481]:
+          - paragraph [ref=e482]: Perfect Fit
+          - paragraph [ref=e483]: Tailored cuts for every body type.
+        - generic [ref=e492]:
+          - paragraph [ref=e493]: Everyday Wear
+          - paragraph [ref=e494]: Designed for real life, not just launch day.
+        - generic [ref=e500]:
+          - paragraph [ref=e501]: Long-Lasting
+          - paragraph [ref=e502]: Holds shape wash after wash.
+        - generic [ref=e506]:
+          - paragraph [ref=e507]: Minimal Branding
+          - paragraph [ref=e508]: Quiet luxury, no logos required.
+    - generic [ref=e510]:
+      - generic [ref=e511]:
+        - paragraph [ref=e512]:
+          - generic [ref=e513]: 0+
+        - paragraph [ref=e514]: Satisfied Customers
+      - generic [ref=e515]:
+        - paragraph [ref=e516]:
+          - generic [ref=e517]: 0,0★
+        - paragraph [ref=e518]: Average Rating
+      - generic [ref=e519]:
+        - paragraph [ref=e520]:
+          - generic [ref=e521]: 0+
+        - paragraph [ref=e522]: Products Sold
+    - generic [ref=e523]:
+      - generic [ref=e524]:
+        - heading "What Men Are Saying · verified only" [level=2] [ref=e525]
+        - generic [ref=e526]:
+          - button "Previous reviews" [ref=e527] [cursor=pointer]
+          - button "Next reviews" [ref=e530] [cursor=pointer]
+      - generic [ref=e533]:
+        - generic [ref=e534]:
+          - generic "Rated 5 out of 5" [ref=e535]
+          - paragraph [ref=e546]: “Genuinely the most comfortable underwear I've ever worn. The waistband doesn't roll and the fabric only gets softer with washes.”
+          - generic [ref=e547]:
+            - img "Marcus T." [ref=e548]
+            - generic [ref=e549]: Marcus T.
+        - generic [ref=e554]:
+          - generic "Rated 5 out of 5" [ref=e555]
+          - paragraph [ref=e566]: “I bought one pair to try and ended up ordering the multipack the next week. Fit is exactly true to size.”
+          - generic [ref=e567]:
+            - img "James R." [ref=e568]
+            - generic [ref=e569]: James R.
+        - generic [ref=e574]:
+          - generic "Rated 4 out of 5" [ref=e575]
+          - paragraph [ref=e586]: “The modal trunks feel unreal against skin. Slightly pricier than what I'm used to but worth it for daily wear.”
+          - generic [ref=e587]:
+            - img "Daniel K." [ref=e588]
+            - generic [ref=e589]: Daniel K.
+    - generic [ref=e594]:
+      - generic [ref=e595]:
+        - heading "@wearelko" [level=2] [ref=e596]
+        - paragraph [ref=e597]: Tag us for a chance to be featured.
+      - generic [ref=e598]:
+        - link [ref=e599] [cursor=pointer]:
+          - /url: "#"
+          - img "ELKO customer Instagram post" [ref=e600]
+        - link [ref=e605] [cursor=pointer]:
+          - /url: "#"
+          - img "ELKO customer Instagram post" [ref=e606]
+        - link [ref=e611] [cursor=pointer]:
+          - /url: "#"
+          - img "ELKO customer Instagram post" [ref=e612]
+        - link [ref=e617] [cursor=pointer]:
+          - /url: "#"
+          - img "ELKO customer Instagram post" [ref=e618]
+        - link [ref=e623] [cursor=pointer]:
+          - /url: "#"
+          - img "ELKO customer Instagram post" [ref=e624]
+        - link [ref=e629] [cursor=pointer]:
+          - /url: "#"
+          - img "ELKO customer Instagram post" [ref=e630]
+    - generic [ref=e638]:
+      - paragraph [ref=e639]: JOIN THE ELKO INSIDER LIST
+      - heading "Get 15% Off Your First Order" [level=2] [ref=e640]
+      - paragraph [ref=e641]: Sign up for early access to new drops, restocks, and members-only offers.
+      - generic [ref=e642]:
+        - textbox "Enter your email address" [ref=e643]
+        - button [ref=e644] [cursor=pointer]
+  - contentinfo [ref=e648]:
+    - generic [ref=e649]:
+      - generic [ref=e650]:
+        - generic [ref=e651]:
+          - paragraph [ref=e652]: ELKO
+          - paragraph [ref=e653]: Premium everyday essentials engineered for comfort and designed for confidence.
+          - generic [ref=e654]:
+            - link "Social link" [ref=e655] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=e658] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=e661] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=e664] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e667]:
+          - paragraph [ref=e668]: SHOP
+          - list [ref=e669]:
+            - listitem [ref=e670]:
+              - link "Boxer Briefs" [ref=e671] [cursor=pointer]:
+                - /url: /shop?category=Boxer Briefs
+            - listitem [ref=e672]:
+              - link "Trunks" [ref=e673] [cursor=pointer]:
+                - /url: /shop?category=Trunks
+            - listitem [ref=e674]:
+              - link "Briefs" [ref=e675] [cursor=pointer]:
+                - /url: /shop?category=Briefs
+            - listitem [ref=e676]:
+              - link "Multipacks" [ref=e677] [cursor=pointer]:
+                - /url: /shop?category=Multipacks
+            - listitem [ref=e678]:
+              - link "New Arrivals" [ref=e679] [cursor=pointer]:
+                - /url: /shop?badge=new
+        - generic [ref=e680]:
+          - paragraph [ref=e681]: CUSTOMER SUPPORT
+          - list [ref=e682]:
+            - listitem [ref=e683]:
+              - link "Contact Us" [ref=e684] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e685]:
+              - link "Size Guide" [ref=e686] [cursor=pointer]:
+                - /url: /size-guide
+            - listitem [ref=e687]:
+              - link "Shipping Info" [ref=e688] [cursor=pointer]:
+                - /url: /shipping
+            - listitem [ref=e689]:
+              - link "Returns & Exchanges" [ref=e690] [cursor=pointer]:
+                - /url: /returns
+            - listitem [ref=e691]:
+              - link "FAQ" [ref=e692] [cursor=pointer]:
+                - /url: /contact#faq
+        - generic [ref=e693]:
+          - paragraph [ref=e694]: COMPANY
+          - list [ref=e695]:
+            - listitem [ref=e696]:
+              - link "About ELKO" [ref=e697] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e698]:
+              - link "Sustainability" [ref=e699] [cursor=pointer]:
+                - /url: /about#sustainability
+            - listitem [ref=e700]:
+              - link "Our Fabrics" [ref=e701] [cursor=pointer]:
+                - /url: /#fabrics
+            - listitem [ref=e702]:
+              - link "Account" [ref=e703] [cursor=pointer]:
+                - /url: /account
+            - listitem [ref=e704]:
+              - link "Wishlist" [ref=e705] [cursor=pointer]:
+                - /url: /wishlist
+        - generic [ref=e706]:
+          - paragraph [ref=e707]: LEGAL
+          - list [ref=e708]:
+            - listitem [ref=e709]:
+              - link "Privacy Policy" [ref=e710] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e711]:
+              - link "Terms of Service" [ref=e712] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=e713]:
+              - link "Cookie Policy" [ref=e714] [cursor=pointer]:
+                - /url: /cookies
+      - generic [ref=e715]:
+        - generic [ref=e716]:
+          - paragraph [ref=e717]: Get 15% Off Your First Order
+          - paragraph [ref=e718]: Sign up for exclusive drops, restocks, and offers.
+        - generic [ref=e719]:
+          - textbox "Enter your email" [ref=e720]
+          - button "Subscribe" [ref=e721] [cursor=pointer]
+      - generic [ref=e724]:
+        - paragraph [ref=e725]: © 2026 ELKO. All rights reserved.
+        - generic [ref=e726]:
+          - generic [ref=e727]: VISA
+          - generic [ref=e728]: Mastercard
+          - generic [ref=e729]: Amex
+          - generic [ref=e730]: Apple Pay
+          - generic [ref=e731]: PayPal
+  - button "Open Next.js Dev Tools" [ref=e737] [cursor=pointer]
+  - alert [ref=e741]

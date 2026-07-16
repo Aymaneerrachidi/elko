@@ -1,0 +1,144 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e4]:
+    - generic [ref=f8e5]: Free Shipping on Orders Over $50
+    - generic [ref=f8e7]: 365-Day Quality Guarantee
+    - generic [ref=f8e9]: "Get 15% Off Your First Order — Code: ELKO15"
+    - generic [ref=f8e11]: Free Shipping on Orders Over $50
+    - generic [ref=f8e13]: 365-Day Quality Guarantee
+    - generic [ref=f8e15]: "Get 15% Off Your First Order — Code: ELKO15"
+  - banner [ref=f8e17]:
+    - generic [ref=f8e19]:
+      - link "ELKO" [ref=f8e20] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f8e21]:
+        - link "Shop" [ref=f8e23] [cursor=pointer]:
+          - /url: /shop
+        - link "New Arrivals" [ref=f8e26] [cursor=pointer]:
+          - /url: /shop?badge=new
+        - link "Best Sellers" [ref=f8e27] [cursor=pointer]:
+          - /url: /shop?badge=best-seller
+        - link "Collections" [ref=f8e28] [cursor=pointer]:
+          - /url: /collections
+        - link "About" [ref=f8e29] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=f8e30] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f8e31]:
+        - button "Search" [ref=f8e32] [cursor=pointer]
+        - link "Wishlist" [ref=f8e36] [cursor=pointer]:
+          - /url: /wishlist
+        - link "Account" [ref=f8e39] [cursor=pointer]:
+          - /url: /account
+        - button "Shopping bag, 0 items" [ref=f8e43] [cursor=pointer]
+  - main [ref=f8e47]:
+    - generic [ref=f8e48]:
+      - generic [ref=f8e49]:
+        - heading "Welcome Back" [level=1] [ref=f8e50]
+        - paragraph [ref=f8e51]: Sign in to view orders, your wishlist, and saved addresses.
+      - generic [ref=f8e52]:
+        - button "Sign In" [ref=f8e53] [cursor=pointer]
+        - button "Create Account" [ref=f8e54] [cursor=pointer]
+      - generic [ref=f8e55]:
+        - textbox "Email address" [ref=f8e60]
+        - textbox "Password" [ref=f8e65]
+        - button "Sign In" [ref=f8e66] [cursor=pointer]
+      - paragraph [ref=f8e67]:
+        - text: New to ELKO?
+        - button "Create an account" [ref=f8e68] [cursor=pointer]
+  - contentinfo [ref=f8e69]:
+    - generic [ref=f8e70]:
+      - generic [ref=f8e71]:
+        - generic [ref=f8e72]:
+          - paragraph [ref=f8e73]: ELKO
+          - paragraph [ref=f8e74]: Premium everyday essentials engineered for comfort and designed for confidence.
+          - generic [ref=f8e75]:
+            - link "Social link" [ref=f8e76] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f8e79] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f8e82] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f8e85] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f8e88]:
+          - paragraph [ref=f8e89]: SHOP
+          - list [ref=f8e90]:
+            - listitem [ref=f8e91]:
+              - link "Boxer Briefs" [ref=f8e92] [cursor=pointer]:
+                - /url: /shop?category=Boxer Briefs
+            - listitem [ref=f8e93]:
+              - link "Trunks" [ref=f8e94] [cursor=pointer]:
+                - /url: /shop?category=Trunks
+            - listitem [ref=f8e95]:
+              - link "Briefs" [ref=f8e96] [cursor=pointer]:
+                - /url: /shop?category=Briefs
+            - listitem [ref=f8e97]:
+              - link "Multipacks" [ref=f8e98] [cursor=pointer]:
+                - /url: /shop?category=Multipacks
+            - listitem [ref=f8e99]:
+              - link "New Arrivals" [ref=f8e100] [cursor=pointer]:
+                - /url: /shop?badge=new
+        - generic [ref=f8e101]:
+          - paragraph [ref=f8e102]: CUSTOMER SUPPORT
+          - list [ref=f8e103]:
+            - listitem [ref=f8e104]:
+              - link "Contact Us" [ref=f8e105] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f8e106]:
+              - link "Size Guide" [ref=f8e107] [cursor=pointer]:
+                - /url: /size-guide
+            - listitem [ref=f8e108]:
+              - link "Shipping Info" [ref=f8e109] [cursor=pointer]:
+                - /url: /shipping
+            - listitem [ref=f8e110]:
+              - link "Returns & Exchanges" [ref=f8e111] [cursor=pointer]:
+                - /url: /returns
+            - listitem [ref=f8e112]:
+              - link "FAQ" [ref=f8e113] [cursor=pointer]:
+                - /url: /contact#faq
+        - generic [ref=f8e114]:
+          - paragraph [ref=f8e115]: COMPANY
+          - list [ref=f8e116]:
+            - listitem [ref=f8e117]:
+              - link "About ELKO" [ref=f8e118] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f8e119]:
+              - link "Sustainability" [ref=f8e120] [cursor=pointer]:
+                - /url: /about#sustainability
+            - listitem [ref=f8e121]:
+              - link "Our Fabrics" [ref=f8e122] [cursor=pointer]:
+                - /url: /#fabrics
+            - listitem [ref=f8e123]:
+              - link "Account" [ref=f8e124] [cursor=pointer]:
+                - /url: /account
+            - listitem [ref=f8e125]:
+              - link "Wishlist" [ref=f8e126] [cursor=pointer]:
+                - /url: /wishlist
+        - generic [ref=f8e127]:
+          - paragraph [ref=f8e128]: LEGAL
+          - list [ref=f8e129]:
+            - listitem [ref=f8e130]:
+              - link "Privacy Policy" [ref=f8e131] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f8e132]:
+              - link "Terms of Service" [ref=f8e133] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=f8e134]:
+              - link "Cookie Policy" [ref=f8e135] [cursor=pointer]:
+                - /url: /cookies
+      - generic [ref=f8e136]:
+        - generic [ref=f8e137]:
+          - paragraph [ref=f8e138]: Get 15% Off Your First Order
+          - paragraph [ref=f8e139]: Sign up for exclusive drops, restocks, and offers.
+        - generic [ref=f8e140]:
+          - textbox "Enter your email" [ref=f8e141]
+          - button "Subscribe" [ref=f8e142] [cursor=pointer]
+      - generic [ref=f8e145]:
+        - paragraph [ref=f8e146]: © 2026 ELKO. All rights reserved.
+        - generic [ref=f8e147]:
+          - generic [ref=f8e148]: VISA
+          - generic [ref=f8e149]: Mastercard
+          - generic [ref=f8e150]: Amex
+          - generic [ref=f8e151]: Apple Pay
+          - generic [ref=f8e152]: PayPal
+  - button "Open Next.js Dev Tools" [ref=f8e158] [cursor=pointer]

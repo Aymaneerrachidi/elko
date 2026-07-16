@@ -1,0 +1,186 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e4]:
+    - generic [ref=f7e5]: Free Shipping on Orders Over $50
+    - generic [ref=f7e7]: 365-Day Quality Guarantee
+    - generic [ref=f7e9]: "Get 15% Off Your First Order — Code: ELKO15"
+    - generic [ref=f7e11]: Free Shipping on Orders Over $50
+    - generic [ref=f7e13]: 365-Day Quality Guarantee
+    - generic [ref=f7e15]: "Get 15% Off Your First Order — Code: ELKO15"
+  - banner [ref=f7e17]:
+    - generic [ref=f7e19]:
+      - link "ELKO" [ref=f7e20] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f7e21]:
+        - link "Shop" [ref=f7e23] [cursor=pointer]:
+          - /url: /shop
+        - link "New Arrivals" [ref=f7e26] [cursor=pointer]:
+          - /url: /shop?badge=new
+        - link "Best Sellers" [ref=f7e27] [cursor=pointer]:
+          - /url: /shop?badge=best-seller
+        - link "Collections" [ref=f7e28] [cursor=pointer]:
+          - /url: /collections
+        - link "About" [ref=f7e29] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=f7e30] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f7e31]:
+        - button "Search" [ref=f7e32] [cursor=pointer]
+        - link "Wishlist" [ref=f7e36] [cursor=pointer]:
+          - /url: /wishlist
+        - link "Account" [ref=f7e39] [cursor=pointer]:
+          - /url: /account
+        - button "Shopping bag, 0 items" [ref=f7e43] [cursor=pointer]
+  - main [ref=f7e47]:
+    - generic [ref=f7e48]:
+      - generic [ref=f7e49]:
+        - img "ELKO founders and craftsmanship" [ref=f7e50]
+        - generic [ref=f7e52]:
+          - paragraph [ref=f7e53]: OUR STORY
+          - heading "Quiet Confidence, Engineered Daily." [level=1] [ref=f7e54]
+      - generic [ref=f7e55]:
+        - generic [ref=f7e56]:
+          - heading "The best essentials should never be an afterthought." [level=2] [ref=f7e57]
+          - paragraph [ref=f7e58]: ELKO was founded on the belief that what men wear closest to their skin deserves the same care and precision as any other piece in their wardrobe. We started with a single question — why does everyday underwear feel like an afterthought? — and spent two years testing fabrics before shipping our first pair.
+          - paragraph [ref=f7e59]: "Today, every ELKO piece goes through the same rigorous process: fabric sourcing, fit testing across hundreds of body types, and a 60-wash durability test before it ever reaches a customer."
+        - img "ELKO craftsmanship detail" [ref=f7e61]
+      - generic [ref=f7e63]:
+        - heading "Sustainability & Ethics" [level=2] [ref=f7e64]
+        - generic [ref=f7e65]:
+          - generic [ref=f7e71]:
+            - paragraph [ref=f7e72]: Sustainability
+            - paragraph [ref=f7e73]: Low-impact dyes, responsibly sourced fibers, and minimal packaging waste.
+          - generic [ref=f7e78]:
+            - paragraph [ref=f7e79]: Premium Manufacturing
+            - paragraph [ref=f7e80]: Small-batch production with mills we've partnered with for years, not months.
+          - generic [ref=f7e88]:
+            - paragraph [ref=f7e89]: Ethical Sourcing
+            - paragraph [ref=f7e90]: Fair-wage certified factories audited twice yearly by independent bodies.
+          - generic [ref=f7e100]:
+            - paragraph [ref=f7e101]: Built to Last
+            - paragraph [ref=f7e102]: Designed for hundreds of washes — fewer replacements, less waste.
+      - generic [ref=f7e103]:
+        - heading "Our Journey" [level=2] [ref=f7e104]
+        - generic [ref=f7e105]:
+          - generic [ref=f7e106]:
+            - generic [ref=f7e107]: "2019"
+            - generic [ref=f7e108]:
+              - paragraph [ref=f7e109]: The Idea
+              - paragraph [ref=f7e110]: Founded on a simple frustration — the everyday underwear market hadn't evolved in decades.
+          - generic [ref=f7e111]:
+            - generic [ref=f7e112]: "2020"
+            - generic [ref=f7e113]:
+              - paragraph [ref=f7e114]: First Fabric Lab
+              - paragraph [ref=f7e115]: Partnered with mills in Portugal to develop our signature premium cotton blend.
+          - generic [ref=f7e116]:
+            - generic [ref=f7e117]: "2022"
+            - generic [ref=f7e118]:
+              - paragraph [ref=f7e119]: 10,000 Customers
+              - paragraph [ref=f7e120]: Word of mouth alone brought us to five figures of loyal, repeat customers.
+          - generic [ref=f7e121]:
+            - generic [ref=f7e122]: "2024"
+            - generic [ref=f7e123]:
+              - paragraph [ref=f7e124]: Modal & Bamboo Lines
+              - paragraph [ref=f7e125]: Expanded into sustainably sourced modal and bamboo viscose fabrics.
+          - generic [ref=f7e126]:
+            - generic [ref=f7e127]: "2026"
+            - generic [ref=f7e128]:
+              - paragraph [ref=f7e129]: 100,000+ Customers
+              - paragraph [ref=f7e130]: Now trusted by men in over 30 countries for their everyday essentials.
+  - contentinfo [ref=f7e131]:
+    - generic [ref=f7e132]:
+      - generic [ref=f7e133]:
+        - generic [ref=f7e134]:
+          - paragraph [ref=f7e135]: ELKO
+          - paragraph [ref=f7e136]: Premium everyday essentials engineered for comfort and designed for confidence.
+          - generic [ref=f7e137]:
+            - link "Social link" [ref=f7e138] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f7e141] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f7e144] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f7e147] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f7e150]:
+          - paragraph [ref=f7e151]: SHOP
+          - list [ref=f7e152]:
+            - listitem [ref=f7e153]:
+              - link "Boxer Briefs" [ref=f7e154] [cursor=pointer]:
+                - /url: /shop?category=Boxer Briefs
+            - listitem [ref=f7e155]:
+              - link "Trunks" [ref=f7e156] [cursor=pointer]:
+                - /url: /shop?category=Trunks
+            - listitem [ref=f7e157]:
+              - link "Briefs" [ref=f7e158] [cursor=pointer]:
+                - /url: /shop?category=Briefs
+            - listitem [ref=f7e159]:
+              - link "Multipacks" [ref=f7e160] [cursor=pointer]:
+                - /url: /shop?category=Multipacks
+            - listitem [ref=f7e161]:
+              - link "New Arrivals" [ref=f7e162] [cursor=pointer]:
+                - /url: /shop?badge=new
+        - generic [ref=f7e163]:
+          - paragraph [ref=f7e164]: CUSTOMER SUPPORT
+          - list [ref=f7e165]:
+            - listitem [ref=f7e166]:
+              - link "Contact Us" [ref=f7e167] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f7e168]:
+              - link "Size Guide" [ref=f7e169] [cursor=pointer]:
+                - /url: /size-guide
+            - listitem [ref=f7e170]:
+              - link "Shipping Info" [ref=f7e171] [cursor=pointer]:
+                - /url: /shipping
+            - listitem [ref=f7e172]:
+              - link "Returns & Exchanges" [ref=f7e173] [cursor=pointer]:
+                - /url: /returns
+            - listitem [ref=f7e174]:
+              - link "FAQ" [ref=f7e175] [cursor=pointer]:
+                - /url: /contact#faq
+        - generic [ref=f7e176]:
+          - paragraph [ref=f7e177]: COMPANY
+          - list [ref=f7e178]:
+            - listitem [ref=f7e179]:
+              - link "About ELKO" [ref=f7e180] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f7e181]:
+              - link "Sustainability" [ref=f7e182] [cursor=pointer]:
+                - /url: /about#sustainability
+            - listitem [ref=f7e183]:
+              - link "Our Fabrics" [ref=f7e184] [cursor=pointer]:
+                - /url: /#fabrics
+            - listitem [ref=f7e185]:
+              - link "Account" [ref=f7e186] [cursor=pointer]:
+                - /url: /account
+            - listitem [ref=f7e187]:
+              - link "Wishlist" [ref=f7e188] [cursor=pointer]:
+                - /url: /wishlist
+        - generic [ref=f7e189]:
+          - paragraph [ref=f7e190]: LEGAL
+          - list [ref=f7e191]:
+            - listitem [ref=f7e192]:
+              - link "Privacy Policy" [ref=f7e193] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=f7e194]:
+              - link "Terms of Service" [ref=f7e195] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=f7e196]:
+              - link "Cookie Policy" [ref=f7e197] [cursor=pointer]:
+                - /url: /cookies
+      - generic [ref=f7e198]:
+        - generic [ref=f7e199]:
+          - paragraph [ref=f7e200]: Get 15% Off Your First Order
+          - paragraph [ref=f7e201]: Sign up for exclusive drops, restocks, and offers.
+        - generic [ref=f7e202]:
+          - textbox "Enter your email" [ref=f7e203]
+          - button "Subscribe" [ref=f7e204] [cursor=pointer]
+      - generic [ref=f7e207]:
+        - paragraph [ref=f7e208]: © 2026 ELKO. All rights reserved.
+        - generic [ref=f7e209]:
+          - generic [ref=f7e210]: VISA
+          - generic [ref=f7e211]: Mastercard
+          - generic [ref=f7e212]: Amex
+          - generic [ref=f7e213]: Apple Pay
+          - generic [ref=f7e214]: PayPal
+  - button "Open Next.js Dev Tools" [ref=f7e220] [cursor=pointer]
+  - alert [ref=f7e224]

@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #111110;
+  --color-charcoal: #2b2a28;
+  --color-paper: #f8f8f6;
+  --color-cream: #f3f1ec;
+  --color-gold: #c9a96e;
+  --color-gold-light: #e4d5b7;
+  --color-line: #e4e2dc;
+}
+
+@theme inline {
+  --font-display: var(--font-playfair);
+  --font-sans: var(--font-inter);
+
+  --color-ink: var(--color-ink);
+  --color-charcoal: var(--color-charcoal);
+  --color-paper: var(--color-paper);
+  --color-cream: var(--color-cream);
+  --color-gold: var(--color-gold);
+  --color-gold-light: var(--color-gold-light);
+  --color-line: var(--color-line);
+
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+* {
+  scrollbar-color: var(--color-charcoal) transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* thin luxury scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-charcoal);
+  border-radius: 999px;
+  border: 3px solid var(--color-paper);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Premium motion-physics easing scale — used across Framer Motion + CSS transitions
+   instead of default linear/ease-in-out, so state changes feel like real mass settling. */
+:root {
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.transition-luxury {
+  transition-timing-function: var(--ease-out-expo);
+}
+
+/* Subtle film-grain overlay — fixed, non-interactive, gives editorial paper a physical texture
+   without ever touching a scrolling container (keeps GPU cost flat). */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grain-overlay {
+    display: none;
+  }
+}
+
+/* Double-bezel card shell: an outer machined "tray" with a concentric inner core.
+   Use with .bezel-inner on the immediate child for mathematically nested radii. */
+.bezel-outer {
+  padding: 0.375rem;
+  border-radius: 1.75rem;
+  background: rgba(17, 17, 16, 0.03);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6);
+}
+.bezel-inner {
+  border-radius: 1.375rem;
+  box-shadow: 0 1px 2px rgba(17, 17, 16, 0.04);
+}
